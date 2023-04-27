@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.AssemblyInfo.cs
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/bin/Debug/net7.0/MadLibsProject
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/bin/Debug/net7.0/MadLibsProject.deps.json
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/bin/Debug/net7.0/MadLibsProject.runtimeconfig.json
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/bin/Debug/net7.0/MadLibsProject.dll
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/bin/Debug/net7.0/MadLibsProject.pdb
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.dll
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/refint/MadLibsProject.dll
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.pdb
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/MadLibsProject.genruntimeconfig.cache
+/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/Debug/net7.0/ref/MadLibsProject.dll

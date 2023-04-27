@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace MadLibs
 {
@@ -31,53 +31,53 @@ namespace MadLibs
             Console.WriteLine("   ");
 
             Console.WriteLine(@"Name Bank:");
-            Console.Write("Vincent");
+          
             string name = Console.ReadLine();
+           
 
             Console.WriteLine(@"Adjective Bank:");
-            Console.Write("silly");
+            
             string adj1 = Console.ReadLine();
-            Console.Write("smelly");
             string adj2 = Console.ReadLine();
-            Console.Write("smooth");
+           
             string adj3 = Console.ReadLine();
 
             Console.WriteLine(@"Verb Bank:");
-            Console.Write("run");
+            
             string verb = Console.ReadLine();
 
             Console.WriteLine(@"Noun Bank:");
-            Console.Write("boy");
+            
             string noun1 = Console.ReadLine();
-            Console.Write("girl");
+           
             string noun2 = Console.ReadLine();
 
             Console.WriteLine(@"Animal Bank:");
-            Console.Write("dog");
+           
             string animal = Console.ReadLine();
 
             Console.WriteLine(@"Food Bank:");
-            Console.Write("burrito");
+            
             string food = Console.ReadLine();
 
             Console.WriteLine(@"Fruit Bank:");
-            Console.Write("apple");
+            
             string fruit = Console.ReadLine();
 
             Console.WriteLine(@"Super Hero Bank:");
-            Console.Write("Batman");
+            
             string superHero = Console.ReadLine();
 
             Console.WriteLine(@"Country Bank:");
-            Console.Write("Ireland");
+            
             string country = Console.ReadLine();
 
             Console.WriteLine(@"Dessert Bank:");
-            Console.Write("cake");
+            
             string dessert = Console.ReadLine();
 
             Console.WriteLine(@"Year Bank:");
-            Console.Write("1995");
+            
             string year = Console.ReadLine();
 
             Console.WriteLine("   ");

@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/bin/Debug/net7.0/TutorialLogs
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/bin/Debug/net7.0/TutorialLogs.deps.json
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/bin/Debug/net7.0/TutorialLogs.runtimeconfig.json
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/bin/Debug/net7.0/TutorialLogs.dll
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/bin/Debug/net7.0/TutorialLogs.pdb
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.AssemblyInfo.cs
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.dll
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/refint/TutorialLogs.dll
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.pdb
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/TutorialLogs.genruntimeconfig.cache
+/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/Debug/net7.0/ref/TutorialLogs.dll

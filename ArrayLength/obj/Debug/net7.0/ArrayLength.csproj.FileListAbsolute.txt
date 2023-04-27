@@ -1,0 +1,5 @@
+/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/Debug/net7.0/ArrayLength.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/Debug/net7.0/ArrayLength.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/Debug/net7.0/ArrayLength.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/Debug/net7.0/ArrayLength.AssemblyInfo.cs
+/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/Debug/net7.0/ArrayLength.csproj.CoreCompileInputs.cache
