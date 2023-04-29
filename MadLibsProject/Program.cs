@@ -16,7 +16,7 @@ namespace MadLibs
 
 
             // Give the Mad Lib a title:
-            string title = "The Crazy Day";
+            string title = "The Crazy Day - a MadLib";
 
             Console.WriteLine(title);
             Console.WriteLine("   ");
@@ -28,56 +28,71 @@ namespace MadLibs
 
             // The template for the story:
             Console.WriteLine(@"Beginning:");
-            Console.WriteLine("   ");
+            Console.WriteLine("");
 
-            Console.WriteLine(@"Name Bank:");
-          
+            Console.Write(@"Please write your name: ");
             string name = Console.ReadLine();
-           
 
-            Console.WriteLine(@"Adjective Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write a first adjective: ");
             string adj1 = Console.ReadLine();
+
+
+            Console.Write(@"Write a second adjective: ");
             string adj2 = Console.ReadLine();
-           
+
+            
+            Console.Write(@"Write a third adjective: ");
             string adj3 = Console.ReadLine();
 
-            Console.WriteLine(@"Verb Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write a verb: ");
             string verb = Console.ReadLine();
 
-            Console.WriteLine(@"Noun Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write a first noun: ");
             string noun1 = Console.ReadLine();
-           
+
+         
+            Console.Write(@"Write a second noun: ");
             string noun2 = Console.ReadLine();
 
-            Console.WriteLine(@"Animal Bank:");
-           
+            Console.WriteLine("");
+
+            Console.Write(@"Please name an animal: ");
             string animal = Console.ReadLine();
 
-            Console.WriteLine(@"Food Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Please provide a food you like: ");
             string food = Console.ReadLine();
 
-            Console.WriteLine(@"Fruit Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write your favorite fruit: ");
             string fruit = Console.ReadLine();
 
-            Console.WriteLine(@"Super Hero Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write the name of your favorite superhero: ");
             string superHero = Console.ReadLine();
 
-            Console.WriteLine(@"Country Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write the name of a country: ");
             string country = Console.ReadLine();
 
-            Console.WriteLine(@"Dessert Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write your favorite dessert: ");
             string dessert = Console.ReadLine();
 
-            Console.WriteLine(@"Year Bank:");
-            
+            Console.WriteLine("");
+
+            Console.Write(@"Write a year in the past or future: ");
             string year = Console.ReadLine();
 
             Console.WriteLine("   ");

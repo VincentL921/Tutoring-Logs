@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/ArrayLength.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/ArrayLength/ArrayLength.csproj",
       "projectName": "ArrayLength",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/ArrayLength.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ArrayLength/ArrayLength.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/ArrayLength/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ArrayLength/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

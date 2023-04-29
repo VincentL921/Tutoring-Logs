@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/TutorialLogs.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/TutorialLogs/TutorialLogs.csproj",
       "projectName": "TutorialLogs",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/TutorialLogs.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/TutorialLogs/TutorialLogs.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/TutorialLogs/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/TutorialLogs/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

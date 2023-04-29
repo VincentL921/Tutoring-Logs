@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/ConsoleCreaturesProject/ConsoleCreaturesProject.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/ConsoleCreaturesProject/ConsoleCreaturesProject.csproj",
       "projectName": "ConsoleCreaturesProject",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/ConsoleCreaturesProject/ConsoleCreaturesProject.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ConsoleCreaturesProject/ConsoleCreaturesProject.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/ConsoleCreaturesProject/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ConsoleCreaturesProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

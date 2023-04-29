@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vincentlentini/Projects/TutorialLogs/SwitchStatements/SwitchStatements.csproj": {}
+    "/Users/vincentlentini/Projects/Tutoring-Logs/SwitchStatements/SwitchStatements.csproj": {}
   },
   "projects": {
-    "/Users/vincentlentini/Projects/TutorialLogs/SwitchStatements/SwitchStatements.csproj": {
+    "/Users/vincentlentini/Projects/Tutoring-Logs/SwitchStatements/SwitchStatements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/SwitchStatements/SwitchStatements.csproj",
+        "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/SwitchStatements/SwitchStatements.csproj",
         "projectName": "SwitchStatements",
-        "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/SwitchStatements/SwitchStatements.csproj",
+        "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/SwitchStatements/SwitchStatements.csproj",
         "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-        "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/SwitchStatements/obj/",
+        "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/SwitchStatements/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

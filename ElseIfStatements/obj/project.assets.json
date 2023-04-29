@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/ElseIfStatements/ElseIfStatements.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/ElseIfStatements/ElseIfStatements.csproj",
       "projectName": "ElseIfStatements",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/ElseIfStatements/ElseIfStatements.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ElseIfStatements/ElseIfStatements.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/ElseIfStatements/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/ElseIfStatements/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

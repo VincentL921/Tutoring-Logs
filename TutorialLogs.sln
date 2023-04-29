@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMethods", "QuizMethods\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadLibsProject", "MadLibsProject\MadLibsProject.csproj", "{DB715434-2ECA-497E-8809-3B0C101400E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadLibsProjectRevised", "MadLibsProjectRevised\MadLibsProjectRevised.csproj", "{34A7A170-5BC7-40B7-B9DC-3564B602C916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyMakerProject", "MoneyMakerProject\MoneyMakerProject.csproj", "{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{DB715434-2ECA-497E-8809-3B0C101400E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB715434-2ECA-497E-8809-3B0C101400E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB715434-2ECA-497E-8809-3B0C101400E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A7A170-5BC7-40B7-B9DC-3564B602C916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A7A170-5BC7-40B7-B9DC-3564B602C916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A7A170-5BC7-40B7-B9DC-3564B602C916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A7A170-5BC7-40B7-B9DC-3564B602C916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

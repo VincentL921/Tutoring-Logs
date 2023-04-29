@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/LogicControlFlow/LogicControlFlow.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/LogicControlFlow/LogicControlFlow.csproj",
       "projectName": "LogicControlFlow",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/LogicControlFlow/LogicControlFlow.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/LogicControlFlow/LogicControlFlow.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/LogicControlFlow/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/LogicControlFlow/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

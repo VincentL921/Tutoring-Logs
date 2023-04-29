@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{34A7A170-5BC7-40B7-B9DC-3564B602C916}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MadLibsProjectRevised/Program.cs">
+    <Files>
+      <File FileName="MadLibsProjectRevised/Program.cs" Line="11" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TutorialLogs" expanded="True">
+            <Node name="MadLibsProjectRevised" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

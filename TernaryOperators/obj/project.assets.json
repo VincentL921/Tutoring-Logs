@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/TernaryOperators/TernaryOperators.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/TernaryOperators/TernaryOperators.csproj",
       "projectName": "TernaryOperators",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/TernaryOperators/TernaryOperators.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/TernaryOperators/TernaryOperators.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/TernaryOperators/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/TernaryOperators/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

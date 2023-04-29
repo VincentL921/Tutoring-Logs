@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vincentlentini/Projects/TutorialLogs/QuizMethods/QuizMethods.csproj": {}
+    "/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/QuizMethods.csproj": {}
   },
   "projects": {
-    "/Users/vincentlentini/Projects/TutorialLogs/QuizMethods/QuizMethods.csproj": {
+    "/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/QuizMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/QuizMethods/QuizMethods.csproj",
+        "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/QuizMethods.csproj",
         "projectName": "QuizMethods",
-        "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/QuizMethods/QuizMethods.csproj",
+        "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/QuizMethods.csproj",
         "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-        "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/QuizMethods/obj/",
+        "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"

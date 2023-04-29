@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/MadLibsProject.csproj",
+      "projectUniqueName": "/Users/vincentlentini/Projects/Tutoring-Logs/MadLibsProject/MadLibsProject.csproj",
       "projectName": "MadLibsProject",
-      "projectPath": "/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/MadLibsProject.csproj",
+      "projectPath": "/Users/vincentlentini/Projects/Tutoring-Logs/MadLibsProject/MadLibsProject.csproj",
       "packagesPath": "/Users/vincentlentini/.nuget/packages/",
-      "outputPath": "/Users/vincentlentini/Projects/TutorialLogs/MadLibsProject/obj/",
+      "outputPath": "/Users/vincentlentini/Projects/Tutoring-Logs/MadLibsProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vincentlentini/.nuget/NuGet/NuGet.Config"
