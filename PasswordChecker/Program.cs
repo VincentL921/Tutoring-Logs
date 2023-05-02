@@ -15,6 +15,7 @@ namespace PasswordChecker
 
             Console.Write("Please Enter A Password: ");
             string password = Console.ReadLine();
+            password = password.Replace("", string.Empty);
 
             int score = 0;
 
@@ -40,9 +41,6 @@ namespace PasswordChecker
             }
             Console.WriteLine("");
             Console.WriteLine($"Password Score: {score}");
-            //Score does not align with what I am looking for. I want all spaces typed into the terminal
-            //to be a score of 0 but instead it is giving me a score of 1. Not sure how to eliminate spaces as a character.
-
 
             switch (score)
             {

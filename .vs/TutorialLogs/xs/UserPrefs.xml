@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{2D8BA5B0-4652-4DEB-BC71-2AB11B22E919}|Default">
-  <MonoDevelop.Ide.ItemProperties.PasswordChecker FirstBuild="True" />
+﻿<Properties StartupConfiguration="{94DF336B-EB25-4477-A862-6F23BC448FEC}|Default">
+  <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
@@ -9,17 +9,18 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.LogicalOperatorsVacationExercise FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MoneyMakerProject/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PasswordChecker/Program.cs">
     <Files>
-      <File FileName="ComparisonOperatorsTravelExercise/Program.cs" Line="1" Column="14" />
-      <File FileName="LogicalOperatorsVacationExercise/Program.cs" Line="26" Column="45" />
-      <File FileName="MoneyMakerProject/Program.cs" Line="20" Column="1" />
+      <File FileName="PasswordChecker/Program.cs" Line="44" Column="124" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TutorialLogs" expanded="True">
-            <Node name="MoneyMakerProject" expanded="True">
+            <Node name="ComparisonOperatorsTravelExercise" expanded="True" />
+            <Node name="MadLibsProjectRevised" expanded="True" />
+            <Node name="MoneyMakerProject" expanded="True" />
+            <Node name="PasswordChecker" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -27,5 +28,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
