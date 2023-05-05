@@ -15,11 +15,11 @@ namespace PasswordChecker
 
             Console.Write("Please Enter A Password: ");
             string password = Console.ReadLine();
-            password = password.Replace("", string.Empty);
+            password = password.Replace(" ", string.Empty);
 
             int score = 0;
 
-            if (minLength >= 8)
+            if (password.Length >= minLength)
             {
                 score++;
             }

@@ -1,34 +1,38 @@
-﻿<Properties StartupConfiguration="{94DF336B-EB25-4477-A862-6F23BC448FEC}|Default">
+﻿<Properties StartupConfiguration="{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}|Default">
   <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.LogicalOperatorsVacationExercise FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PasswordChecker/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoneyMakerProject/Program.cs">
     <Files>
-      <File FileName="PasswordChecker/Program.cs" Line="44" Column="124" />
+      <File FileName="ChooseAdventureProject/Program.cs" />
+      <File FileName="PasswordChecker/Tools.cs" />
+      <File FileName="MadLibsProjectRevised/Program.cs" />
+      <File FileName="MoneyMakerProject/Program.cs" Line="10" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TutorialLogs" expanded="True">
+            <Node name="ChooseAdventureProject" expanded="True" />
             <Node name="ComparisonOperatorsTravelExercise" expanded="True" />
-            <Node name="MadLibsProjectRevised" expanded="True" />
-            <Node name="MoneyMakerProject" expanded="True" />
-            <Node name="PasswordChecker" expanded="True">
+            <Node name="MoneyMakerProject" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="PasswordChecker" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

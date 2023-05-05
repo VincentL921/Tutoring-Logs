@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperatorsVacationExe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordChecker", "PasswordChecker\PasswordChecker.csproj", "{94DF336B-EB25-4477-A862-6F23BC448FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChooseAdventureProject", "ChooseAdventureProject\ChooseAdventureProject.csproj", "{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{94DF336B-EB25-4477-A862-6F23BC448FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DF336B-EB25-4477-A862-6F23BC448FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DF336B-EB25-4477-A862-6F23BC448FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,8 +7,7 @@ namespace MoneyMaker
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Money Maker!");
-
-
+            
             Console.Write("Please enter an amount to convert to coins: ");
             string amount = Console.ReadLine();
             Console.WriteLine("");
