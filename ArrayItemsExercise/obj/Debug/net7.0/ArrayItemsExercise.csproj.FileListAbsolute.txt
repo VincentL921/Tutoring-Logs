@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/bin/Debug/net7.0/ArrayItemsExercise
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/bin/Debug/net7.0/ArrayItemsExercise.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/bin/Debug/net7.0/ArrayItemsExercise.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/bin/Debug/net7.0/ArrayItemsExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/bin/Debug/net7.0/ArrayItemsExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/refint/ArrayItemsExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ArrayItemsExercise.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ArrayItemsExercise/obj/Debug/net7.0/ref/ArrayItemsExercise.dll

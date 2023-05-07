@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/bin/Debug/net7.0/DocumentationHuntExercise
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/bin/Debug/net7.0/DocumentationHuntExercise.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/bin/Debug/net7.0/DocumentationHuntExercise.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/bin/Debug/net7.0/DocumentationHuntExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/bin/Debug/net7.0/DocumentationHuntExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/refint/DocumentationHuntExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/DocumentationHuntExercise.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DocumentationHuntExercise/obj/Debug/net7.0/ref/DocumentationHuntExercise.dll

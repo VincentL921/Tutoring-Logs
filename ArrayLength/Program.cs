@@ -1,5 +1,4 @@
 ﻿using System;
-using Internal;
 
 namespace ArrayLength
 {
