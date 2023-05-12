@@ -1,36 +1,47 @@
-﻿<Properties StartupConfiguration="{7408EABC-D2C4-41EE-AE3D-0FD9D2F94739}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{F06D686A-A477-4711-903D-F1B2D3972ADA}|Default">
   <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LogicalOperatorsVacationExercise FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EditingArraysExercise/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DocumentationHuntExercise/Program.cs">
     <Files>
-      <File FileName="ArrayItemsExercise/Program.cs" Line="1" Column="14" />
-      <File FileName="EditingArraysExercise/Program.cs" Line="19" Column="110" />
+      <File FileName="ForLoopsExercise/Program.cs" />
+      <File FileName="ForEachLoopProject/Program.cs" />
+      <File FileName="TernaryOperators/Program.cs" Line="1" Column="1" />
+      <File FileName="EditingArraysExercise/Program.cs" Line="1" Column="1" />
+      <File FileName="DocumentationHuntExercise/Program.cs" Line="32" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TutorialLogs" expanded="True">
-            <Node name="EditingArraysExercise" expanded="True">
+            <Node name="DocumentationHuntExercise" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="ForLoopsExercise" expanded="True" />
+            <Node name="TernaryOperators" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ArrayLength PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LogicalOperatorsVacationExercise FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

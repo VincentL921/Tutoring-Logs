@@ -15,7 +15,7 @@ namespace DocumentationHunt
 
             //SHOW DAVE - won't print correctly
             string[] summerStrutCopy = new string[8];
-            Array.Copy(summerStrutCopy, summerStrut, 8);
+            Array.Copy(summerStrut, summerStrutCopy, 8);
             Console.WriteLine($"{summerStrutCopy[0]}");
 
             //SHOW DAVE - won't print correctly
@@ -27,6 +27,9 @@ namespace DocumentationHunt
             Array.Clear(ratings, 0, ratings.Length);
             Console.WriteLine($"{ratings[0]}");
 
+
+            var name = "vincent";
+            Console.WriteLine($"{name[6]}");
         }
     }
 }

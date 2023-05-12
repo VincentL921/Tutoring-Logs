@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/bin/Debug/net7.0/WhileLoopExercise
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/bin/Debug/net7.0/WhileLoopExercise.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/bin/Debug/net7.0/WhileLoopExercise.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/bin/Debug/net7.0/WhileLoopExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/bin/Debug/net7.0/WhileLoopExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/refint/WhileLoopExercise.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/WhileLoopExercise.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/WhileLoopExercise/obj/Debug/net7.0/ref/WhileLoopExercise.dll

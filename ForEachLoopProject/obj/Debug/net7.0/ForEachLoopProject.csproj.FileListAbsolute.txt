@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/bin/Debug/net7.0/ForEachLoopProject
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/bin/Debug/net7.0/ForEachLoopProject.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/bin/Debug/net7.0/ForEachLoopProject.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/bin/Debug/net7.0/ForEachLoopProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/bin/Debug/net7.0/ForEachLoopProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/refint/ForEachLoopProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ForEachLoopProject.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ForEachLoopProject/obj/Debug/net7.0/ref/ForEachLoopProject.dll
