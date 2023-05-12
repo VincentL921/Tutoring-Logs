@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/bin/Debug/net7.0/ComparingLoopsProject
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/bin/Debug/net7.0/ComparingLoopsProject.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/bin/Debug/net7.0/ComparingLoopsProject.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/bin/Debug/net7.0/ComparingLoopsProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/bin/Debug/net7.0/ComparingLoopsProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/refint/ComparingLoopsProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ComparingLoopsProject.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ComparingLoopsProject/obj/Debug/net7.0/ref/ComparingLoopsProject.dll
