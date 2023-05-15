@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/bin/Debug/net7.0/BuildingArrays
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/bin/Debug/net7.0/BuildingArrays.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/bin/Debug/net7.0/BuildingArrays.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/bin/Debug/net7.0/BuildingArrays.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/bin/Debug/net7.0/BuildingArrays.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/refint/BuildingArrays.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/BuildingArrays.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/BuildingArrays/obj/Debug/net7.0/ref/BuildingArrays.dll

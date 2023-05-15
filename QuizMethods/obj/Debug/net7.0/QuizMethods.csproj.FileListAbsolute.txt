@@ -13,3 +13,11 @@
 /Users/vincentlentini/Projects/TutorialLogs/QuizMethods/obj/Debug/net7.0/QuizMethods.pdb
 /Users/vincentlentini/Projects/TutorialLogs/QuizMethods/obj/Debug/net7.0/QuizMethods.genruntimeconfig.cache
 /Users/vincentlentini/Projects/TutorialLogs/QuizMethods/obj/Debug/net7.0/ref/QuizMethods.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/refint/QuizMethods.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/QuizMethods/obj/Debug/net7.0/QuizMethods.pdb

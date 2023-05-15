@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachLoopProject", "ForEa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingLoopsProject", "ComparingLoopsProject\ComparingLoopsProject.csproj", "{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpStatementsExercise", "JumpStatementsExercise\JumpStatementsExercise.csproj", "{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTest", "FizzBuzzTest\FizzBuzzTest.csproj", "{77F108E2-4736-4464-AAB3-E07C30D224F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F108E2-4736-4464-AAB3-E07C30D224F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F108E2-4736-4464-AAB3-E07C30D224F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F108E2-4736-4464-AAB3-E07C30D224F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F108E2-4736-4464-AAB3-E07C30D224F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
