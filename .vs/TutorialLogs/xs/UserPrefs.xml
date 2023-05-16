@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}|Default">
+﻿<Properties StartupConfiguration="{77F108E2-4736-4464-AAB3-E07C30D224F9}|Default">
   <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
@@ -9,31 +9,31 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTestEdit PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="JumpStatementsExercise/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzzTest/Program.cs">
     <Files>
       <File FileName="JumpStatementsExercise/Program.cs" Line="29" Column="119" />
-      <File FileName="DoWhileLoopExercise/Program.cs" Line="1" Column="1" />
-      <File FileName="WhileLoopExercise/Program.cs" Line="1" Column="1" />
+      <File FileName="WhileLoopExercise/Program.cs" Line="20" Column="34" />
+      <File FileName="FizzBuzzTest/Program.cs" Line="12" Column="6" />
+      <File FileName="MoneyMakerProject/Program.cs" Line="1" Column="1" />
+      <File FileName="FizzBuzzTestEdit/Program.cs" Line="7" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TutorialLogs" expanded="True">
-            <Node name="ComparingLoopsProject" expanded="True" />
-            <Node name="DocumentationHuntExercise" expanded="True" />
-            <Node name="DoWhileLoopExercise" expanded="True" />
-            <Node name="ForLoopsExercise" expanded="True" />
-            <Node name="JumpStatementsExercise" expanded="True">
+            <Node name="FizzBuzzTest" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="TernaryOperators" expanded="True" />
-            <Node name="WhileLoopExercise" expanded="True" />
+            <Node name="MoneyMakerProject" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -45,5 +45,5 @@
   <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

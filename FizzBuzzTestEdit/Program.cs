@@ -16,14 +16,11 @@ namespace FizzBuzzTest
             int x = 3;
             int y = 5;
 
-            for (digits = 0; digits < 51; digits++)
+            for (digits = 1; digits < 51; digits++)
             {
-                if (digits % x == 0)
+                if ((digits % x == 0) && (digits % y == 0))
                 {
-                    if (digits % y == 0)
-                    {
-                        Console.WriteLine("fizz-buzz");
-                    }
+                    Console.WriteLine("fizz-buzz");
                 }
                 else if (digits % x == 0)
                 {
