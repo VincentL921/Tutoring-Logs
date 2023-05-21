@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/bin/Debug/net7.0/ReverseNameTestReTry
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/bin/Debug/net7.0/ReverseNameTestReTry.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/bin/Debug/net7.0/ReverseNameTestReTry.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/bin/Debug/net7.0/ReverseNameTestReTry.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/bin/Debug/net7.0/ReverseNameTestReTry.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/refint/ReverseNameTestReTry.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ReverseNameTestReTry.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/ReverseNameTestReTry/obj/Debug/net7.0/ref/ReverseNameTestReTry.dll

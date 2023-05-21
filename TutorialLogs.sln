@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTestEdit", "FizzBuz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNameTest", "ReverseNameTest\ReverseNameTest.csproj", "{BA16F33C-58DA-4AB7-92A6-76E227046665}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNameTestReTry", "ReverseNameTestReTry\ReverseNameTestReTry.csproj", "{0984F800-A197-4B0B-AE70-460188289EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{BA16F33C-58DA-4AB7-92A6-76E227046665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA16F33C-58DA-4AB7-92A6-76E227046665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA16F33C-58DA-4AB7-92A6-76E227046665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0984F800-A197-4B0B-AE70-460188289EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984F800-A197-4B0B-AE70-460188289EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984F800-A197-4B0B-AE70-460188289EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984F800-A197-4B0B-AE70-460188289EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
