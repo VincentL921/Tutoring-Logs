@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/bin/Debug/net7.0/DavidsCarReturnExample
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/bin/Debug/net7.0/DavidsCarReturnExample.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/bin/Debug/net7.0/DavidsCarReturnExample.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/bin/Debug/net7.0/DavidsCarReturnExample.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/bin/Debug/net7.0/DavidsCarReturnExample.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/refint/DavidsCarReturnExample.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/DavidsCarReturnExample.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/DavidsCarReturnExample/obj/Debug/net7.0/ref/DavidsCarReturnExample.dll

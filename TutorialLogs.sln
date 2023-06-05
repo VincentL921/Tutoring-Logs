@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCypherProject", "Caes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipherReTake", "CaesarCipherReTake\CaesarCipherReTake.csproj", "{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueOrFalseProject", "TrueOrFalseProject\TrueOrFalseProject.csproj", "{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProject", "SampleProject\SampleProject.csproj", "{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,14 @@ Global
 		{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

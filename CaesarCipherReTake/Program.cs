@@ -24,7 +24,7 @@ namespace CaesarCipher
             var newMessage = String.Join("", encryptedMessage);
             Console.WriteLine(newMessage);
 
-
+//ask Dave how to rewrite method to skip symbols in console print if message is weritten with any
                 
 
         }

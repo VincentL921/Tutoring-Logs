@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/bin/Debug/net7.0/TrueOrFalseProject
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/bin/Debug/net7.0/TrueOrFalseProject.deps.json
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/bin/Debug/net7.0/TrueOrFalseProject.runtimeconfig.json
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/bin/Debug/net7.0/TrueOrFalseProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/bin/Debug/net7.0/TrueOrFalseProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/refint/TrueOrFalseProject.dll
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.pdb
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/TrueOrFalseProject.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Tutoring-Logs/TrueOrFalseProject/obj/Debug/net7.0/ref/TrueOrFalseProject.dll
