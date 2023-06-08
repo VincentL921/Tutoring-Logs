@@ -1,5 +1,0 @@
-/Users/vincentlentini/Projects/Tutoring-Logs/DavidsEngineReturnExample/obj/Debug/net7.0/DavidsEngineReturnExample.csproj.AssemblyReference.cache
-/Users/vincentlentini/Projects/Tutoring-Logs/DavidsEngineReturnExample/obj/Debug/net7.0/DavidsEngineReturnExample.GeneratedMSBuildEditorConfig.editorconfig
-/Users/vincentlentini/Projects/Tutoring-Logs/DavidsEngineReturnExample/obj/Debug/net7.0/DavidsEngineReturnExample.AssemblyInfoInputs.cache
-/Users/vincentlentini/Projects/Tutoring-Logs/DavidsEngineReturnExample/obj/Debug/net7.0/DavidsEngineReturnExample.AssemblyInfo.cs
-/Users/vincentlentini/Projects/Tutoring-Logs/DavidsEngineReturnExample/obj/Debug/net7.0/DavidsEngineReturnExample.csproj.CoreCompileInputs.cache

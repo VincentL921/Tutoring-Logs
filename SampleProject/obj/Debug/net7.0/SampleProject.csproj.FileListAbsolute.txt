@@ -1,5 +1,0 @@
-/Users/vincentlentini/Projects/Tutoring-Logs/SampleProject/obj/Debug/net7.0/SampleProject.csproj.AssemblyReference.cache
-/Users/vincentlentini/Projects/Tutoring-Logs/SampleProject/obj/Debug/net7.0/SampleProject.GeneratedMSBuildEditorConfig.editorconfig
-/Users/vincentlentini/Projects/Tutoring-Logs/SampleProject/obj/Debug/net7.0/SampleProject.AssemblyInfoInputs.cache
-/Users/vincentlentini/Projects/Tutoring-Logs/SampleProject/obj/Debug/net7.0/SampleProject.AssemblyInfo.cs
-/Users/vincentlentini/Projects/Tutoring-Logs/SampleProject/obj/Debug/net7.0/SampleProject.csproj.CoreCompileInputs.cache
