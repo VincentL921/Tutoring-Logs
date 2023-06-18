@@ -45,41 +45,36 @@ namespace TrueOrFalse
                     //Only being recognized in initial response. SOLVED
                 }
 
-
-                //Step 13. review logic of this with Dave
                 responses[askingIndex] = inputBool;
-                askingIndex += 1;
-
-                int scoringIndex = 0;
-                int score = 0;
-                foreach (bool answer in answers)
-                {
-                    bool newAns = responses[scoringIndex];
-                    Console.WriteLine($"{askingIndex}. Input: {input} | Asnwer: {answer}");
-                    //This forech statement displaying user answer and correct answer is printing right,
-                    //But the entire array loop keeps printing after each answer. Been stuck on how to get it to print one element per answer.
-
-                    if (isBool == answer)
-                    {
-                        score++;
-                    }
-                    scoringIndex++;
-                }
-                Console.WriteLine($"You got {score} out of {questions.Length} right!");
-                //The results keep printing based off the incorrect foreach statement above, instead of giving the total score at the end.
+                askingIndex++;
             }
-            //Console.WriteLine($"You got {score} out of {questions.Length} right!");
-
-            //Go over step 13 & 14 with Dave - They wanted me to print this as a print check for step 13.
-            for (askingIndex = 0; askingIndex < responses.Length; askingIndex++)
+            int scoringIndex = 0;
+            int score = 0;
+            foreach (bool answer in answers)
             {
-            Console.WriteLine(responses[askingIndex]);
+                bool responseOfUserInput = responses[scoringIndex];
+                scoringIndex++;
+
+                Console.WriteLine($"{scoringIndex}. Input: {responseOfUserInput} | Answer: {answer}");
+                if (responseOfUserInput == answer)
+                {
+                    score++;
+                }
             }
-
-        }
-
+            Console.WriteLine($"You got {score} out of {questions.Length} correct!");
         }
     }
+}
+
+//Console.WriteLine($"You got {score} out of {questions.Length} right!");
+
+//Go over step 13 & 14 with Dave - They wanted me to print this as a print check for step 13.
+// for (askingIndex = 0; askingIndex < responses.Length; askingIndex++)
+// {
+// Console.WriteLine(responses[askingIndex]);
+// }
+
+
 
 
 

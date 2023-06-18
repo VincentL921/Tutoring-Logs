@@ -36,7 +36,7 @@ namespace FiveKLogs
                 minutes[indexOfRunners] = inputAsInt;
                 indexOfRunners += 1;
 
-                for (int i = 0; i < names.Length; i++)
+                for (int i = 0; i < indexOfRunners; i++)
                 {
                     string runnerNames = names[i];
                     int runnerTimes = minutes[i];
