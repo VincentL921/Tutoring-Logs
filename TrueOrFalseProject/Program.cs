@@ -66,9 +66,7 @@ namespace TrueOrFalse
     }
 }
 
-//Console.WriteLine($"You got {score} out of {questions.Length} right!");
 
-//Go over step 13 & 14 with Dave - They wanted me to print this as a print check for step 13.
 // for (askingIndex = 0; askingIndex < responses.Length; askingIndex++)
 // {
 // Console.WriteLine(responses[askingIndex]);
