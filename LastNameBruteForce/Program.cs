@@ -14,20 +14,21 @@ namespace LastNameBruteForce
             bool[] names = new bool[firstNames.Length];
             string nameToFind = "Lentini";
 
-            var siblingLastName = Array.Find(lastNames, element => element.Contains(nameToFind));
+            string siblingLastName = Array.Find(lastNames, element => element.Contains(nameToFind));
 
-            for (int i = 0; i < lastNames.Length; i++)
+            for (int i = 0; i < firstNames.Length; i++)
             {
                 string personNames = firstNames[i];
+                string personTitles = lastNames[i];
                 bool doTheyHaveSiblings = names[i];
 
-                if (siblingLastName == nameToFind)
+                if (siblingLastName == personTitles)
                 {
-                    Console.WriteLine("This person has siblings");
+                    Console.WriteLine($"{personNames} has siblings");
                 }
-                else if(siblingLastName != nameToFind)
+                else if(siblingLastName != personTitles)
                 {
-                    Console.WriteLine("This person does not have siblings");
+                    Console.WriteLine($"{personNames} does not have siblings");
                 }
 
                 }
