@@ -27,10 +27,12 @@ namespace NumberSeventyFiveExercise
                 if (inputAsInt % 6 == 0)
                 {
                     Console.WriteLine(i += 6);
+                    //incrementing by one number higher than intended. Need 6 multiplication table.
                 }
                 else if (inputAsInt % 9 == 0)
                 {
                     Console.WriteLine(i += 9);
+                    //incrementing by one number higher than intended. Need 9 multiplication table.
                 }
                 else
                 {
