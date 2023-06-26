@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastNameSiblingExercise", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastNameBruteForce", "LastNameBruteForce\LastNameBruteForce.csproj", "{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSeventyFiveExercise", "NumberSeventyFiveExercise\NumberSeventyFiveExercise.csproj", "{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
