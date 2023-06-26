@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}|Default">
+﻿<Properties StartupConfiguration="{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}|Default">
   <MonoDevelop.Ide.ItemProperties.LINQDotWherePractce FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
@@ -21,20 +21,24 @@
   <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.CaesarCypherProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FiveKLogs/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NumberSeventyFiveExercise/Program.cs">
     <Files>
-      <File FileName="LastNameSiblingExercise/Program.cs" Line="8" Column="18" />
+      <File FileName="LastNameSiblingExercise/Program.cs" />
       <File FileName="TrueOrFalseProject/Program.cs" Line="1" Column="1" />
-      <File FileName="LastNameBruteForce/Program.cs" Line="22" Column="52" />
-      <File FileName="FiveKLogs/Program.cs" Line="1" Column="1" />
+      <File FileName="LastNameBruteForce/Program.cs" Line="27" Column="70" />
+      <File FileName="FiveKLogs/Program.cs" Line="36" Column="32" />
+      <File FileName="NumberSeventyFiveExercise/Program.cs" Line="29" Column="1" />
+      <File FileName="FizzBuzzTestEdit/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TutorialLogs">
-            <Node name="FiveKLogs">
+            <Node name="FizzBuzzTestEdit" expanded="True" />
+            <Node name="NumberSeventyFiveExercise">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="TrueOrFalseProject" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -42,15 +46,19 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ComparingLoopsProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.JumpStatementsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../LastNameBruteForce/Program.cs" line="22" column="39" endLine="22" endColumn="54" offsetX="-1" offsetY="-1" expression="siblingLastName" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.ItemProperties.ReverseNameTestReTry PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ReverseNameTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.NumberSeventyFiveExercise FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.NumberSeventyFiveExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.LINQPractice FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

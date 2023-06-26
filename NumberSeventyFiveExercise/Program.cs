@@ -20,15 +20,24 @@ namespace NumberSeventyFiveExercise
                 parsedInput = int.TryParse(userInputNumber, out inputAsInt);
             }
 
-            int numberCap = 200;
-            int x = 6;
-            int y = 9;
+            //int numberCap = 201;
 
-            for (int i = 0; i < numberCap; i++)
+            for (int i = inputAsInt; i <= 200; i++)
             {
-
+                if (inputAsInt % 6 == 0)
+                {
+                    Console.WriteLine(i += 6);
+                }
+                else if (inputAsInt % 9 == 0)
+                {
+                    Console.WriteLine(i += 9);
+                }
+                else
+                {
+                    Console.WriteLine(i + 1);
+                    //did not know how to get this one to increment the input by 1 any other way, but this way worked!
+                }
             }
-
         }
     }
 }
