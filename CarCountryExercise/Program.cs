@@ -35,19 +35,28 @@ c5.Country = "USA";
 c6.Country = "Japan";
 c7.Country = "Germany";
 
+car.Add(c1);
+car.Add(c2);
+car.Add(c3);
+car.Add(c4);
+car.Add(c5);
+car.Add(c6);
+car.Add(c7);
+
 List<Vehicle> americanCars = new List<Vehicle>();
 List<Vehicle> internationalCars = new List<Vehicle>();
 
 foreach (Vehicle item in car)
 {
-    if(item.Country == string.Contains("USA"))
+
+    if (item.Country.Contains("USA"))
     {
         americanCars.Add(item);
         continue;
     }
     internationalCars.Add(item);
 
-    }
+}
 
 Console.WriteLine($"Number of American Cars: {americanCars.Count}");
 Console.WriteLine($"Number of International Cars: {internationalCars.Count}");

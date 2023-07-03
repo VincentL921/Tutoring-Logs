@@ -10,6 +10,6 @@ namespace CarCountryExercise
         public Vehicle()
 		{
 		}
-	}
+    }
 }
 

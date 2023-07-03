@@ -1,64 +1,70 @@
-﻿<Properties StartupConfiguration="{E70DCFC3-6231-4865-92BA-F9D62A176B8B}|Default">
-  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{30054A3B-D3D3-42F4-8B89-2C4DD8EDCD49}|Default">
   <MonoDevelop.Ide.ItemProperties.LINQPractice FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AgeRulesProject/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.LastNameSiblingExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FiveKLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.JumpStatementsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTestEdit PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CaesarCypherProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CaesarCipherReTake PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ReverseNameTestReTry PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ReverseNameTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CarCountryExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LINQDotWherePractce FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../LastNameBruteForce/Program.cs" line="22" column="39" endLine="22" endColumn="54" offsetX="-1" offsetY="-1" expression="siblingLastName" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ArrayLength PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TrueOrFalseProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarCountryExercise/Program.cs">
     <Files>
-      <File FileName="LastNameSiblingExercise/Program.cs" />
-      <File FileName="TrueOrFalseProject/Program.cs" />
-      <File FileName="LastNameBruteForce/Program.cs" />
-      <File FileName="FiveKLogs/Program.cs" />
-      <File FileName="NumberSeventyFiveExercise/Program.cs" />
-      <File FileName="FizzBuzzTestEdit/Program.cs" />
-      <File FileName="AgeRulesProject/Program.cs" Line="39" Column="16" />
+      <File FileName="LastNameBruteForce/Program.cs" Line="24" Column="1" />
+      <File FileName="NumberSeventyFiveExercise/Program.cs" Line="1" Column="1" />
+      <File FileName="AgeRulesProject/Program.cs" Line="49" Column="34" />
+      <File FileName="CarCountryExercise/Program.cs" Line="51" Column="33" />
+      <File FileName="AgeRulesProject/Person.cs" Line="14" Column="4" />
+      <File FileName="CarCountryExercise/Vehicle.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TutorialLogs">
-            <Node name="AgeRulesProject" expanded="True">
+          <Node name="TutorialLogs" expanded="True">
+            <Node name="CarCountryExercise">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="FiveKLogs" expanded="True" />
+            <Node name="FizzBuzzTestEdit" expanded="True" />
+            <Node name="LastNameBruteForce" expanded="True" />
             <Node name="LastNameSiblingExercise" expanded="True" />
+            <Node name="NumberSeventyFiveExercise" expanded="True" />
+            <Node name="TrueOrFalseProject" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.JumpStatementsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CarCountryExercise FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.TrueOrFalseProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.ArrayLength PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FiveKLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LINQDotWherePractce FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.NumberSeventyFiveExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FizzBuzzTestEdit PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ReverseNameTestReTry PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.LastNameBruteForce PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CaesarCypherProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ReverseNameTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CaesarCipherReTake PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ComparingLoopsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AgeRulesProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.WhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../../../LastNameBruteForce/Program.cs" line="22" column="39" endLine="22" endColumn="54" offsetX="-1" offsetY="-1" expression="siblingLastName" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.LastNameSiblingExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ComparingLoopsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.AgeRulesProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
