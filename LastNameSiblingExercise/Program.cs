@@ -19,7 +19,7 @@ namespace LastNameSiblingExercise
 
             int indexOfNames = 0;
 
-            lastNames[indexOfNames]
+            //lastNames[indexOfNames]
 
             for (int i = 0; i < indexOfNames; i++ )
             {

@@ -1,103 +1,105 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1705.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialLogs", "TutorialLogs\TutorialLogs.csproj", "{E087B81D-5FCC-4E64-974D-332C17026662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorialLogs", "TutorialLogs\TutorialLogs.csproj", "{E087B81D-5FCC-4E64-974D-332C17026662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicControlFlow", "LogicControlFlow\LogicControlFlow.csproj", "{106A1465-2C5B-42CA-A72F-3CA9FC1E07E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicControlFlow", "LogicControlFlow\LogicControlFlow.csproj", "{106A1465-2C5B-42CA-A72F-3CA9FC1E07E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElseIfStatements", "ElseIfStatements\ElseIfStatements.csproj", "{9C2455EB-2B12-4C1C-B232-741F31359383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElseIfStatements", "ElseIfStatements\ElseIfStatements.csproj", "{9C2455EB-2B12-4C1C-B232-741F31359383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatements", "SwitchStatements\SwitchStatements.csproj", "{C07BB370-69C8-4EAA-9A5D-89080E2F90D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchStatements", "SwitchStatements\SwitchStatements.csproj", "{C07BB370-69C8-4EAA-9A5D-89080E2F90D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryOperators", "TernaryOperators\TernaryOperators.csproj", "{1A39D79F-36D7-43C4-B647-F5C65435918B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TernaryOperators", "TernaryOperators\TernaryOperators.csproj", "{1A39D79F-36D7-43C4-B647-F5C65435918B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingArrays", "BuildingArrays\BuildingArrays.csproj", "{5AD0C9FD-B1B5-4261-AF9E-A60AE157C96A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingArrays", "BuildingArrays\BuildingArrays.csproj", "{5AD0C9FD-B1B5-4261-AF9E-A60AE157C96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayLength", "ArrayLength\ArrayLength.csproj", "{C4D5F689-6E81-4386-A865-D4549D1FB16F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayLength", "ArrayLength\ArrayLength.csproj", "{C4D5F689-6E81-4386-A865-D4549D1FB16F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCreaturesProject", "ConsoleCreaturesProject\ConsoleCreaturesProject.csproj", "{255EB8FD-46F9-4C71-AFA6-CE6074B30312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleCreaturesProject", "ConsoleCreaturesProject\ConsoleCreaturesProject.csproj", "{255EB8FD-46F9-4C71-AFA6-CE6074B30312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMethods", "QuizMethods\QuizMethods.csproj", "{A7F99999-0EA2-4EC4-92B9-E3BAE97243B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizMethods", "QuizMethods\QuizMethods.csproj", "{A7F99999-0EA2-4EC4-92B9-E3BAE97243B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadLibsProject", "MadLibsProject\MadLibsProject.csproj", "{DB715434-2ECA-497E-8809-3B0C101400E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadLibsProject", "MadLibsProject\MadLibsProject.csproj", "{DB715434-2ECA-497E-8809-3B0C101400E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadLibsProjectRevised", "MadLibsProjectRevised\MadLibsProjectRevised.csproj", "{34A7A170-5BC7-40B7-B9DC-3564B602C916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadLibsProjectRevised", "MadLibsProjectRevised\MadLibsProjectRevised.csproj", "{34A7A170-5BC7-40B7-B9DC-3564B602C916}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyMakerProject", "MoneyMakerProject\MoneyMakerProject.csproj", "{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyMakerProject", "MoneyMakerProject\MoneyMakerProject.csproj", "{F761CB2D-4FE6-4F41-A54D-9B8EA6CD6560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonOperatorsTravelExercise", "ComparisonOperatorsTravelExercise\ComparisonOperatorsTravelExercise.csproj", "{2D8BA5B0-4652-4DEB-BC71-2AB11B22E919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparisonOperatorsTravelExercise", "ComparisonOperatorsTravelExercise\ComparisonOperatorsTravelExercise.csproj", "{2D8BA5B0-4652-4DEB-BC71-2AB11B22E919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperatorsVacationExercise", "LogicalOperatorsVacationExercise\LogicalOperatorsVacationExercise.csproj", "{0CC016A5-014C-4B3A-99CF-004E20D727F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalOperatorsVacationExercise", "LogicalOperatorsVacationExercise\LogicalOperatorsVacationExercise.csproj", "{0CC016A5-014C-4B3A-99CF-004E20D727F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordChecker", "PasswordChecker\PasswordChecker.csproj", "{94DF336B-EB25-4477-A862-6F23BC448FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordChecker", "PasswordChecker\PasswordChecker.csproj", "{94DF336B-EB25-4477-A862-6F23BC448FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChooseAdventureProject", "ChooseAdventureProject\ChooseAdventureProject.csproj", "{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChooseAdventureProject", "ChooseAdventureProject\ChooseAdventureProject.csproj", "{D4229D8E-37A2-4DE0-83A0-918E78B3ADDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayItemsExercise", "ArrayItemsExercise\ArrayItemsExercise.csproj", "{6572F693-AE17-4928-BE18-E2A0CD71DB1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayItemsExercise", "ArrayItemsExercise\ArrayItemsExercise.csproj", "{6572F693-AE17-4928-BE18-E2A0CD71DB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditingArraysExercise", "EditingArraysExercise\EditingArraysExercise.csproj", "{DD222EAD-D77C-4319-89BC-B9D4FC5F46D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EditingArraysExercise", "EditingArraysExercise\EditingArraysExercise.csproj", "{DD222EAD-D77C-4319-89BC-B9D4FC5F46D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInMethodsExercise", "BuiltInMethodsExercise\BuiltInMethodsExercise.csproj", "{7408EABC-D2C4-41EE-AE3D-0FD9D2F94739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInMethodsExercise", "BuiltInMethodsExercise\BuiltInMethodsExercise.csproj", "{7408EABC-D2C4-41EE-AE3D-0FD9D2F94739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationHuntExercise", "DocumentationHuntExercise\DocumentationHuntExercise.csproj", "{F06D686A-A477-4711-903D-F1B2D3972ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentationHuntExercise", "DocumentationHuntExercise\DocumentationHuntExercise.csproj", "{F06D686A-A477-4711-903D-F1B2D3972ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopExercise", "WhileLoopExercise\WhileLoopExercise.csproj", "{FF51122B-D161-454B-8A62-DF066D55DA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoopExercise", "WhileLoopExercise\WhileLoopExercise.csproj", "{FF51122B-D161-454B-8A62-DF066D55DA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileLoopExercise", "DoWhileLoopExercise\DoWhileLoopExercise.csproj", "{8876FC01-0850-4120-826B-2C066DDBA3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileLoopExercise", "DoWhileLoopExercise\DoWhileLoopExercise.csproj", "{8876FC01-0850-4120-826B-2C066DDBA3E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopsExercise", "ForLoopsExercise\ForLoopsExercise.csproj", "{500EBE1E-2052-4FBB-9B7A-30094C59C269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopsExercise", "ForLoopsExercise\ForLoopsExercise.csproj", "{500EBE1E-2052-4FBB-9B7A-30094C59C269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachLoopProject", "ForEachLoopProject\ForEachLoopProject.csproj", "{3DDC78E3-256A-4009-BE9F-AD63E4166CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachLoopProject", "ForEachLoopProject\ForEachLoopProject.csproj", "{3DDC78E3-256A-4009-BE9F-AD63E4166CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingLoopsProject", "ComparingLoopsProject\ComparingLoopsProject.csproj", "{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparingLoopsProject", "ComparingLoopsProject\ComparingLoopsProject.csproj", "{5E63CF02-8935-4E7B-AE74-1E70BB5CC41F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpStatementsExercise", "JumpStatementsExercise\JumpStatementsExercise.csproj", "{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpStatementsExercise", "JumpStatementsExercise\JumpStatementsExercise.csproj", "{44F14E7F-B618-42BC-9BA0-E53C4D4BAEAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTest", "FizzBuzzTest\FizzBuzzTest.csproj", "{77F108E2-4736-4464-AAB3-E07C30D224F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzTest", "FizzBuzzTest\FizzBuzzTest.csproj", "{77F108E2-4736-4464-AAB3-E07C30D224F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTestEdit", "FizzBuzzTestEdit\FizzBuzzTestEdit.csproj", "{AA9440A2-AE25-4A12-A9D3-81D1D86E74FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzTestEdit", "FizzBuzzTestEdit\FizzBuzzTestEdit.csproj", "{AA9440A2-AE25-4A12-A9D3-81D1D86E74FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNameTest", "ReverseNameTest\ReverseNameTest.csproj", "{BA16F33C-58DA-4AB7-92A6-76E227046665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNameTest", "ReverseNameTest\ReverseNameTest.csproj", "{BA16F33C-58DA-4AB7-92A6-76E227046665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNameTestReTry", "ReverseNameTestReTry\ReverseNameTestReTry.csproj", "{0984F800-A197-4B0B-AE70-460188289EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNameTestReTry", "ReverseNameTestReTry\ReverseNameTestReTry.csproj", "{0984F800-A197-4B0B-AE70-460188289EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavesBreakContinueExample", "DavesBreakContinueExample\DavesBreakContinueExample.csproj", "{3A9D404F-813F-4939-A660-1F3CE8B1E985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavesBreakContinueExample", "DavesBreakContinueExample\DavesBreakContinueExample.csproj", "{3A9D404F-813F-4939-A660-1F3CE8B1E985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidsCarReturnExample", "DavidsCarReturnExample\DavidsCarReturnExample.csproj", "{92C83990-A4B1-44C5-B7B6-9F78D1BF3154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavidsCarReturnExample", "DavidsCarReturnExample\DavidsCarReturnExample.csproj", "{92C83990-A4B1-44C5-B7B6-9F78D1BF3154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidsEngineReturnExample", "DavidsEngineReturnExample\DavidsEngineReturnExample.csproj", "{A5876F84-1E63-4024-9C1C-B33AFBB38B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavidsEngineReturnExample", "DavidsEngineReturnExample\DavidsEngineReturnExample.csproj", "{A5876F84-1E63-4024-9C1C-B33AFBB38B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCypherProject", "CaesarCypherProject\CaesarCypherProject.csproj", "{82CF9207-BC6D-4D83-B910-47C63C9B67D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCypherProject", "CaesarCypherProject\CaesarCypherProject.csproj", "{82CF9207-BC6D-4D83-B910-47C63C9B67D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipherReTake", "CaesarCipherReTake\CaesarCipherReTake.csproj", "{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipherReTake", "CaesarCipherReTake\CaesarCipherReTake.csproj", "{11C2D78C-0D94-47FD-9E4D-57EBB8D1537D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueOrFalseProject", "TrueOrFalseProject\TrueOrFalseProject.csproj", "{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueOrFalseProject", "TrueOrFalseProject\TrueOrFalseProject.csproj", "{7172EB2F-B9DD-48E2-BCF0-EF36A1D424BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProject", "SampleProject\SampleProject.csproj", "{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProject", "SampleProject\SampleProject.csproj", "{1F180C10-95FC-4A1B-A9AA-D4EF38B41E3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveKLogs", "FiveKLogs\FiveKLogs.csproj", "{90AB3CFB-CA66-479F-A751-E0684F3D90E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveKLogs", "FiveKLogs\FiveKLogs.csproj", "{90AB3CFB-CA66-479F-A751-E0684F3D90E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQPractice", "LINQPractice\LINQPractice.csproj", "{4D5D12B2-A19F-4372-806E-BB7EEE61AE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQPractice", "LINQPractice\LINQPractice.csproj", "{4D5D12B2-A19F-4372-806E-BB7EEE61AE0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQDotWherePractce", "LINQDotWherePractce\LINQDotWherePractce.csproj", "{C554B6A0-4025-48D2-BD7F-9D45574ACE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQDotWherePractce", "LINQDotWherePractce\LINQDotWherePractce.csproj", "{C554B6A0-4025-48D2-BD7F-9D45574ACE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastNameSiblingExercise", "LastNameSiblingExercise\LastNameSiblingExercise.csproj", "{DE80FEF4-FC36-4F7B-85BB-D3BB98EADD8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastNameSiblingExercise", "LastNameSiblingExercise\LastNameSiblingExercise.csproj", "{DE80FEF4-FC36-4F7B-85BB-D3BB98EADD8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastNameBruteForce", "LastNameBruteForce\LastNameBruteForce.csproj", "{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LastNameBruteForce", "LastNameBruteForce\LastNameBruteForce.csproj", "{5C79199F-2A60-4AE2-B90B-3119CAD35CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSeventyFiveExercise", "NumberSeventyFiveExercise\NumberSeventyFiveExercise.csproj", "{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSeventyFiveExercise", "NumberSeventyFiveExercise\NumberSeventyFiveExercise.csproj", "{6CBDE045-26C1-4B10-89EA-BCB2D6DB5B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeRulesProject", "AgeRulesProject\AgeRulesProject.csproj", "{E70DCFC3-6231-4865-92BA-F9D62A176B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgeRulesProject", "AgeRulesProject\AgeRulesProject.csproj", "{E70DCFC3-6231-4865-92BA-F9D62A176B8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCountryExercise", "CarCountryExercise\CarCountryExercise.csproj", "{30054A3B-D3D3-42F4-8B89-2C4DD8EDCD49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCountryExercise", "CarCountryExercise\CarCountryExercise.csproj", "{30054A3B-D3D3-42F4-8B89-2C4DD8EDCD49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantMenuProject", "RestaurantMenuProject\RestaurantMenuProject.csproj", "{70CCD581-35B5-47A6-8529-7A93EA5D1212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantMenuProject", "RestaurantMenuProject\RestaurantMenuProject.csproj", "{70CCD581-35B5-47A6-8529-7A93EA5D1212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingClassesLesson", "MakingClassesLesson\MakingClassesLesson.csproj", "{287690CB-C803-4C95-BF8E-FF65E874E316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakingClassesLesson", "MakingClassesLesson\MakingClassesLesson.csproj", "{287690CB-C803-4C95-BF8E-FF65E874E316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldsLessonExercise", "FieldsLessonExercise\FieldsLessonExercise.csproj", "{516A2208-6A9B-4443-B44D-3F57C6130A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldsLessonExercise", "FieldsLessonExercise\FieldsLessonExercise.csproj", "{516A2208-6A9B-4443-B44D-3F57C6130A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesLessonExercise", "PropertiesLessonExercise\PropertiesLessonExercise.csproj", "{C0E2480C-F245-4174-8B60-A2EE31EF6637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{516A2208-6A9B-4443-B44D-3F57C6130A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516A2208-6A9B-4443-B44D-3F57C6130A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516A2208-6A9B-4443-B44D-3F57C6130A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E2480C-F245-4174-8B60-A2EE31EF6637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E2480C-F245-4174-8B60-A2EE31EF6637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E2480C-F245-4174-8B60-A2EE31EF6637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E2480C-F245-4174-8B60-A2EE31EF6637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
