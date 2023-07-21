@@ -36,8 +36,8 @@ topUnit.BedRoomWindow = new Window();
 
 
 
-apartment.Units.Add(floorUnit);
-apartment.Units.Add(topUnit);
+apartment.Units.Add(floorUnit); //add infinite amount of variables
+apartment.Units.Add(topUnit); //add infinite amount of variables
 
 
 Console.WriteLine($"My apartment is located in {apartment.Location.State} and it has {apartment.Units.Count} unit(s)");
