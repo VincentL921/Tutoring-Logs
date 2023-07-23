@@ -90,23 +90,42 @@ ppb.Area.People.Add(tourists6);
 
 
 //Console.WriteLine($"{ppb.Area.People.Count()}");
-
 //commented these out to give the guard clause if statement a try. Update: I needed them lol
 
-List<Pedestrians> Boardwalk = new List<Pedestrians>();
-List<Pedestrians> Beach = new List<Pedestrians>();
+List<Pedestrians> boardwalk = new List<Pedestrians>();
+List<Pedestrians> beach = new List<Pedestrians>();
+
+List<Pedestrians> boardwalkEmployees = new List<Pedestrians>();
+List<Pedestrians> beachEmployees = new List<Pedestrians>();
 
 foreach (var item in beaches)
 {
     Console.WriteLine($"{item.Location.City} is a {item.TypeOfBeach} in {item.Location.State} that mainly markets in {item.UsageType}");
 
-    //if (item.Area.AreaOfLeisure.Contains("Boardwalk"))
-    //{
-    //    Boardwalk.Add(item);
-    //    continue;
-    //}
-    //Beach.Add(item);
+    foreach (var bItem in item.Area.People)
+    {
+        if (item.Area.AreaOfLeisure.Contains(("Boardwalk"))) //keeps saying this is not attached to an object, null has been thrown
+        {
+            boardwalk.Add(bItem);
+            continue;
+        }
+        beach.Add(bItem);
+    }
+
+    foreach (var cItem in item.Area.People)
+    {
+        if (item.Area.AreaOfWork.Contains(("Boardwalk"))) //keeps saying this is not attached to an object, null has been thrown
+        {
+            boardwalkEmployees.Add(cItem);
+            continue;
+        }
+        beachEmployees.Add(cItem);
+    }
 }
 
+Console.WriteLine($"Number of Groups of Tourists on Boardwalk: {boardwalk.Count}");
+Console.WriteLine($"Number of Groups of Tourists on Beach: {beach.Count}");
+Console.WriteLine($"Number of Groups of Employees on Boardwalk: {boardwalkEmployees.Count}");
+Console.WriteLine($"Number of Groups of Employees on Beach: {beachEmployees.Count}");
 
 
