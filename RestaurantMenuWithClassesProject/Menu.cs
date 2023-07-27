@@ -10,14 +10,17 @@ namespace RestaurantMenuWithClassesProject
         //public int ItemNumbers { get; set; }
         //Renamed ItemNumbers to selected items so we can collect all of the users selections in one spot on the menu.
         public List<int> SelectedItems { get; set; }
-        public int ItemNumbers { get; set; }
-        public string Input { get; set; }
-		public int InputAsInt { get; set; }
-		public int IndexOfItems { get; set; }
+        
+        
+        //Don't need the following properties
+  //      public int ItemNumbers { get; set; }
+  //      public string Input { get; set; }
+		//public int InputAsInt { get; set; }
+		//public int IndexOfItems { get; set; }
 
-        public Menu()
-		{
-		}
+  //      public Menu()
+		//{
+		//}
 	}
 }
 
