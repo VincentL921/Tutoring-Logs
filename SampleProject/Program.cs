@@ -1,5 +1,5 @@
 ﻿using System;
 
-namespace SampleProject;
 
 
+Console.WriteLine("Appease VS2022");

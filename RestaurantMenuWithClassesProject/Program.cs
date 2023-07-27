@@ -1,90 +1,96 @@
 ﻿using System.Security.Cryptography;
 using RestaurantMenuWithClassesProject;
-List<Menu> food = new List<Menu>();
-//List<UserInput> answer = new List<UserInput>();
-
 var m1 = new Menu();
-var m2 = new Menu();
-var m3 = new Menu();
-var m4 = new Menu();
-var m5 = new Menu();
-
-var a1 = new Menu();
-var i1 = new Menu();
+m1.MenuItems = new List<string>();
+m1.SelectedItems = new List<int>();
 
 
-m1.MenuItems = "Pizza";
-m2.MenuItems = "Pasta";
-m3.MenuItems = "Chicken Parm";
-m4.MenuItems = "Meatballs";
-m5.MenuItems = "Soda";
+m1.MenuItems.Add("Pizza");
+m1.MenuItems.Add("Pasta");
+m1.MenuItems.Add("Chicken Parm");
+m1.MenuItems.Add("Meatballs");
+m1.MenuItems.Add("Soda");
+m1.MenuItems.Add("Chicken Carbonara");
 
-m1.ItemNumbers = 1;
-m2.ItemNumbers = 2;
-m3.ItemNumbers = 3;
-m4.ItemNumbers = 4;
-m5.ItemNumbers = 5;
-
-a1.Input = Console.ReadLine();
-i1.IndexOfItems = 0;
-
-food.Add(m1);
-food.Add(m2);
-food.Add(m3);
-food.Add(m4);
-food.Add(m5);
-
-food.Add(a1);
-food.Add(i1);
-
-List<Menu> menuItems = new List<Menu>();
-List<Menu> itemNumbers = new List<Menu>();
+//m1.ItemNumbers = 1;
 
 Console.WriteLine("Welcome to Vin's Pizza!");
 Console.WriteLine($"Please Begin Order:");
-Console.WriteLine($"#1 - Pizza");
-Console.WriteLine($"#2 - Pasta");
-Console.WriteLine($"#3 - Chicken Parm");
-Console.WriteLine($"#4 - Meatballs");
-Console.WriteLine($"#5 - Soda");
 
-foreach (Menu item in food)
+// Replace hard coded menu display with dynamic foreach loop below
+//Console.WriteLine($"#1 - Pizza");
+//Console.WriteLine($"#2 - Pasta");
+//Console.WriteLine($"#3 - Chicken Parm");
+//Console.WriteLine($"#4 - Meatballs");
+//Console.WriteLine($"#5 - Soda");
+
+var counter = 1;
+foreach (var item in m1.MenuItems)
 {
-    menuItems.Add(item);
-    itemNumbers.Add(item);
-    //Made seperate list classes to make the matching numbers warning.
+    Console.WriteLine($"#{counter} - {item}");
+
+    counter++;
 }
 
-if (menuItems.Count != itemNumbers.Count)
-{
-    Console.WriteLine("Warning: Menu Items are not equal to Item Numbers");
-    //Made seperate list classes to make the matching numbers warning.
-}
+//Alternative to foreach loop that uses counter, can do for loop with i+1 as the counter.
+//for (int i = 0; i < m1.MenuItems.Count; i++)
+//{
+//    Console.WriteLine($"#{i+1} - {m1.MenuItems[i]}");
+//}
+
+//Hold over from array work, don't need when dealing with lists/collections that allow complex objects 
+//  complex objects meaning classes / something other than int/string...etc.
+//if (menuItems.Count != itemNumbers.Count)
+//{
+//    Console.WriteLine("Warning: Menu Items are not equal to Item Numbers");
+//    //Made seperate list classes to make the matching numbers warning.
+//}
 
 int indexOfItems = 0;
 
-foreach (Menu mItem in food)
+foreach (var mItem in m1.MenuItems)
 {
     Console.WriteLine("What would you like?");
-    string menuInput = mItem.Input;
-    bool parsedInput = int.TryParse(mItem.Input, out int inputAsInt);
+    //string menuInput = mItem.Input;
+    string menuInput = Console.ReadLine();
+    //bool parsedInput = int.TryParse(mItem.Input, out int inputAsInt);
+    //Renamed parsedInput to isInteger
+    bool isInteger = int.TryParse(menuInput, out int inputAsInt);
 
-    while ((inputAsInt == 0) || (inputAsInt > 5) || (!int.TryParse(menuInput, out inputAsInt)))
+    //while ((inputAsInt == 0) || (inputAsInt > 5) || (!int.TryParse(menuInput, out inputAsInt)))
+
+    //change inputAsInt > 5 to inputAsInt > m1.MenuItems.Count so it will support however many menu items are in the MenuItems collection
+    while ((inputAsInt == 0) || (inputAsInt > m1.MenuItems.Count) || (!isInteger))
     {
         Console.WriteLine("Invalid Order. Please order a food item within range:");
-        menuInput = mItem.Input;
-        parsedInput = int.TryParse(menuInput, out inputAsInt);
+        //Not sure if this is needed, commenting out for now
+        //menuInput = mItem.Input;
+
+        //Not being used anywhere, can remove
+        //parsedInput = int.TryParse(menuInput, out inputAsInt);
         continue;
     }
 
-    mItem.ItemNumbers.Equals(inputAsInt);
-    indexOfItems += 1;
-    for (mItem.IndexOfItems = 0; mItem.IndexOfItems < indexOfItems; mItem.IndexOfItems++)
+    m1.SelectedItems.Add(inputAsInt);
+    //mItem.ItemNumbers.Equals(inputAsInt);
+    //indexOfItems += 1;
+    //for (mItem.IndexOfItems = 0; mItem.IndexOfItems < indexOfItems; mItem.IndexOfItems++)
+    //{
+    //    var translationNumber = mItem.ItemNumbers.Equals(mItem.IndexOfItems);
+    //    var translationOfUserInput = mItem.MenuItems.Equals(translationNumber);
+    //    Console.WriteLine($"Your order: {translationOfUserInput}!");
+    //}
+
+
+    foreach (var item in m1.SelectedItems)
     {
-        var translationNumber = mItem.ItemNumbers.Equals(mItem.IndexOfItems);
-        var translationOfUserInput = mItem.MenuItems.Equals(translationNumber);
+        var selectedItemNumber = item - 1;
+        //var translationOfUserInput = m1.MenuItems.Equals(selectedItemNumber);
+        //Don't use equals, when accessing a list by index, use [], for the selected item# - subtract 1.
+        var translationOfUserInput = m1.MenuItems[selectedItemNumber];
         Console.WriteLine($"Your order: {translationOfUserInput}!");
     }
+
     Console.WriteLine("Thank you for your order. Please press Enter to checkout/continue!");
 }
 
