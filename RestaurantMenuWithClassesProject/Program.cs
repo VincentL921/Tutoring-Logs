@@ -48,11 +48,14 @@ foreach (var item in m1.MenuItems)
 
 int indexOfItems = 0;
 
-foreach (var mItem in m1.MenuItems)
+string menuInput = "";
+
+while(menuInput != "EXIT")
+//foreach (var mItem in m1.MenuItems)
 {
     Console.WriteLine("What would you like?");
     //string menuInput = mItem.Input;
-    string menuInput = Console.ReadLine();
+    menuInput = Console.ReadLine();
     //bool parsedInput = int.TryParse(mItem.Input, out int inputAsInt);
     //Renamed parsedInput to isInteger
     bool isInteger = int.TryParse(menuInput, out int inputAsInt);
@@ -60,15 +63,16 @@ foreach (var mItem in m1.MenuItems)
     //while ((inputAsInt == 0) || (inputAsInt > 5) || (!int.TryParse(menuInput, out inputAsInt)))
 
     //change inputAsInt > 5 to inputAsInt > m1.MenuItems.Count so it will support however many menu items are in the MenuItems collection
-    while ((inputAsInt == 0) || (inputAsInt > m1.MenuItems.Count) || (!isInteger))
+    while (menuInput != "EXIT" && ((inputAsInt == 0) || (inputAsInt > m1.MenuItems.Count) || (!isInteger && menuInput != "EXIT")))
     {
         Console.WriteLine("Invalid Order. Please order a food item within range:");
         //Not sure if this is needed, commenting out for now
         //menuInput = mItem.Input;
+        menuInput = Console.ReadLine();
 
         //Not being used anywhere, can remove
         //parsedInput = int.TryParse(menuInput, out inputAsInt);
-        continue;
+        isInteger = int.TryParse(menuInput, out inputAsInt);
     }
 
     m1.SelectedItems.Add(inputAsInt);
@@ -84,6 +88,12 @@ foreach (var mItem in m1.MenuItems)
 
     foreach (var item in m1.SelectedItems)
     {
+        // Add guard clause to prevent error when typing in EXIT to close the program / stop prompting for user input
+        if (item == 0)
+        {
+            continue;
+        }
+
         var selectedItemNumber = item - 1;
         //var translationOfUserInput = m1.MenuItems.Equals(selectedItemNumber);
         //Don't use equals, when accessing a list by index, use [], for the selected item# - subtract 1.
