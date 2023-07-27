@@ -1,6 +1,10 @@
-﻿////This for loop method was the incorrect answer that I initially gave. Below is the correct foreach loop method answer.
-//using System;
-//using System.ComponentModel;
+﻿Console.WriteLine("Appease VS2022");
+
+
+
+////This for loop method was the incorrect answer that I initially gave. Below is the correct foreach loop method answer.
+                                    //using System;
+                                    //using System.ComponentModel;
 
 //namespace ComparingLoops
 //{
@@ -9,7 +13,7 @@
 //        static void Main(string[] args)
 //        {
 //            string[] websites = { "twitter", "facebook", "gmail" };
-            
+
 
 //            for (int i = 0;  i < websites.Length; i++)
 //      {

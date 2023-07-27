@@ -1,1 +1,1 @@
-﻿
+﻿Console.WriteLine("Appease VS2022");
