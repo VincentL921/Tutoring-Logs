@@ -58,6 +58,7 @@ while(menuInput != "EXIT")
     menuInput = Console.ReadLine();
     //bool parsedInput = int.TryParse(mItem.Input, out int inputAsInt);
     //Renamed parsedInput to isInteger
+    
     bool isInteger = int.TryParse(menuInput, out int inputAsInt);
 
     //while ((inputAsInt == 0) || (inputAsInt > 5) || (!int.TryParse(menuInput, out inputAsInt)))
@@ -76,6 +77,7 @@ while(menuInput != "EXIT")
     }
 
     m1.SelectedItems.Add(inputAsInt);
+    
     //mItem.ItemNumbers.Equals(inputAsInt);
     //indexOfItems += 1;
     //for (mItem.IndexOfItems = 0; mItem.IndexOfItems < indexOfItems; mItem.IndexOfItems++)
