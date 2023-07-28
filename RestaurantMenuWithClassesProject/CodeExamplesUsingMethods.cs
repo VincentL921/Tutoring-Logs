@@ -25,6 +25,8 @@ namespace RestaurantMenuWithClassesProject
             Console.WriteLine("Welcome to Vin's Pizza!");
             Console.WriteLine($"Please Begin Order:");
 
+            #region Block of code can be moved to DisplayMenu method
+            
             var counter = 1;
             foreach (var item in m1.MenuItems)
             {
@@ -33,6 +35,8 @@ namespace RestaurantMenuWithClassesProject
                 counter++;
             }
             
+            #endregion
+
             int indexOfItems = 0;
 
             string menuInput = "";
@@ -41,8 +45,8 @@ namespace RestaurantMenuWithClassesProject
             {
                 Console.WriteLine("What would you like?");
                 menuInput = Console.ReadLine();
-                m1.PlaceOrder(menuInput);
-
+                
+                #region Code could be moved to a PlaceOrder method
                 
                 bool isInteger = int.TryParse(menuInput, out int inputAsInt);
 
@@ -54,7 +58,11 @@ namespace RestaurantMenuWithClassesProject
                 }
 
                 m1.SelectedItems.Add(inputAsInt);
-                
+
+                #endregion
+
+                #region Code could be moved to a DisplaySelections method or DisplayMenuSelections method
+
                 foreach (var item in m1.SelectedItems)
                 {
                     if (item == 0)
@@ -66,7 +74,9 @@ namespace RestaurantMenuWithClassesProject
                     var translationOfUserInput = m1.MenuItems[selectedItemNumber];
                     Console.WriteLine($"Your order: {translationOfUserInput}!");
                 }
-                
+
+                #endregion
+
                 Console.WriteLine("Thank you for your order. Please press Enter to checkout/continue!");
             }
         }
