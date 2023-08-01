@@ -1,4 +1,5 @@
-﻿using JobsProposalClassesExercise;
+﻿using System.Linq;
+using JobsProposalClassesExercise;
 //var proposal = new BidProposal();
 
 List<BidProposal> project = new List<BidProposal>();
@@ -107,7 +108,6 @@ foreach (var item in project)
     Console.WriteLine($"7. Providance of framing & plywood to millwork light ceiling: {item.ProvideFramingForNotOurTradeCeilings}");
     Console.WriteLine($"8. Install only all bathroom accessories: {item.InstallBathroomAccessories}");
     Console.WriteLine($"9. Install all doors, frames & hatrdware: {item.InstallDoorsFramesAndHardware}");
-    Console.WriteLine($"");
 
     int drywallTotal = (item.FAndIDrywallPartitions + item.FAndIGypsumCeilingsAndSoffits + item.ProvidanceOfWallBlocking + item.ProvidanceOfCeilingBlocking
         + item.ProvidanceOfExistingWallPatching + item.ProvidanceOfExistingCeilingPatching + item.ProvideFramingForNotOurTradeCeilings +
@@ -118,20 +118,27 @@ foreach (var item in project)
     Console.WriteLine($"");
     Console.WriteLine($"Additional Items:");
 
+    var specialPricingIndex = 1;
     foreach (var pItem in item.SpecialPricingLineItems)
     {
-        Console.WriteLine($"{pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
+        Console.WriteLine($"{specialPricingIndex}. {pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
+        specialPricingIndex++;
     }
 }
+var specialPriceTotal = (samsungHMDoorPricing.SpecialtyPricingProposalPrice + samsungArmstrongMetalWorksPricing.SpecialtyPricingProposalPrice +
+    samsungArkturaSC3CeilingPricing.SpecialtyPricingProposalPrice + samsungArkturaSC2CeilingPricing.SpecialtyPricingProposalPrice +
+    samsungArkturaSC1CeilingPricing.SpecialtyPricingProposalPrice + samsungActCeilingPricing.SpecialtyPricingProposalPrice);
+
+//tried to use LINQ to get the sum for special items as well. Was just about there but LINQ method couldn't figure out that I needed to
+//.Select() the properties of the special items, not the List or Class itself.
+//Figured out after I could do a standard sum with the properties by writing them out the same way I did to input their respective prices.
+
+int drywallTotalNotInForeachLoop = (samsungPennOne.FAndIDrywallPartitions + samsungPennOne.FAndIGypsumCeilingsAndSoffits + samsungPennOne.ProvidanceOfWallBlocking + samsungPennOne.ProvidanceOfCeilingBlocking
+    + samsungPennOne.ProvidanceOfExistingWallPatching + samsungPennOne.ProvidanceOfExistingCeilingPatching + samsungPennOne.ProvideFramingForNotOurTradeCeilings +
+    samsungPennOne.InstallBathroomAccessories + samsungPennOne.InstallDoorsFramesAndHardware);
 
 
+Console.WriteLine($"Total for Additional Items: {specialPriceTotal}");
+Console.WriteLine($"");
+Console.WriteLine($"Overall Total: {drywallTotalNotInForeachLoop + specialPriceTotal}");
 
-//samsungPennOne.FAndIDrywallPartitions = 100000;
-//samsungPennOne.FAndIGypsumCeilingsAndSoffits = 100000;
-//samsungPennOne.InstallBathroomAccessories = 1500;
-//samsungPennOne.InstallDoorsFramesAndHardware = 3000;
-//samsungPennOne.ProvidanceOfWallBlocking = 5000;
-//samsungPennOne.ProvidanceOfCeilingBlocking = 5000;
-//samsungPennOne.ProvidanceOfExistingWallPatching = 7000;
-//samsungPennOne.ProvidanceOfExistingCeilingPatching = 7000;
-//samsungPennOne.ProvideFramingForNotOurTradeCeilings = 11000;
