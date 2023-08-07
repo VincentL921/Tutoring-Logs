@@ -16,6 +16,24 @@ namespace JobsProposalWIthMethodsWork
         public BidInformation bidInformation { get; set; }
         public List<ProposalSpecialtyPricing> SpecialPricingLineItems { get; set; }
 
+        //NOTE - dmw 8/7/2023
+        //  So this is a great start on building out a method, its on the correct class (bid proposal) but the issue is that you've got it
+        //  being responsible for more bid proposals other than itself, meaning you've got this singular class of 1 proposal responsible for
+        //  displaying bid proposal for N number of jobs (meaning more jobs than just itself.
+        //  
+        // What you want to do when building out methods is make sure the method is contained to just the class you are working with
+        //  (usually, there are plenty of exceptions but this is a good rule majority of the time).
+        //
+        //  So what i mean is, rather than passing in a collection of BidProposals, you would pass in nothing and just display the values
+        //  already assigned to the class.
+        //
+        //  That means you'd remove the foreach loop that loops over "project" and all the variables where you have
+        //  item.bidInformation.ProjectName would turn into this.bidInformation.ProjectName or item.SpecialtyLineItems would become this.SpecialtyLineItems.
+        //
+        //  Then, you'd leave the consumer of this class, the code that utilizes this class / "consumes" it, to be responsible with determining whether
+        // it needs to display 1 proposal or multiple proposals worth of data.
+        //
+        //  So that means you'd leave the foreach loop in program.cs and call the proposal display method within program.cs, within the foreach loop
 
         public void DisplayProposal(List<BidProposal> project)
         {
