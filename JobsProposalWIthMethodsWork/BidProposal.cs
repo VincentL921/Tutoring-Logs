@@ -35,51 +35,47 @@ namespace JobsProposalWIthMethodsWork
         //
         //  So that means you'd leave the foreach loop in program.cs and call the proposal display method within program.cs, within the foreach loop
 
-        public void DisplayProposal(List<BidProposal> project)
+        public void DisplayProposal()
         {
-            foreach (var item in project)
+            Console.WriteLine($"Gotham Drywall Inc");
+            Console.WriteLine($"");
+            Console.WriteLine($"Project Name: {this.bidInformation.ProjectName}");
+            Console.WriteLine($"Attention To: {this.bidInformation.ProjectClient}");
+            Console.Write($"Date: {this.bidInformation.TodaysDate}");
+            Console.Write($"");
+            Console.WriteLine($"  Bid Revision: {this.bidInformation.VersionOfBid}");
+            Console.Write($"This bid is based off of: {this.bidInformation.BluePrintAddendum}");
+            Console.Write($", dated {this.bidInformation.BluePrintDates} ");
+
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"28th Floor, Samsung Office:");
+            Console.WriteLine($"1. F & I Drywall Partiitons: {this.FAndIDrywallPartitions}");
+            Console.WriteLine($"2. GWB Ceilings & Soffits: {this.FAndIGypsumCeilingsAndSoffits}");
+            Console.WriteLine($"3. Providance of Wall Blocking: {this.ProvidanceOfWallBlocking}");
+            Console.WriteLine($"4. Providance of Ceiling Blocking: {this.ProvidanceOfCeilingBlocking}");
+            Console.WriteLine($"5. Providance Allowance to patch existing walls: {this.ProvidanceOfExistingWallPatching}");
+            Console.WriteLine($"6. Providance Allowance to patch existing ceilings: {this.ProvidanceOfExistingCeilingPatching}");
+            Console.WriteLine($"7. Providance of framing & plywood to millwork light ceiling: {this.ProvideFramingForNotOurTradeCeilings}");
+            Console.WriteLine($"8. Install only all bathroom accessories: {this.InstallBathroomAccessories}");
+            Console.WriteLine($"9. Install all doors, frames & hatrdware: {this.InstallDoorsFramesAndHardware}");
+
+            int drywallTotal = (this.FAndIDrywallPartitions + this.FAndIGypsumCeilingsAndSoffits + this.ProvidanceOfWallBlocking + this.ProvidanceOfCeilingBlocking
+                + this.ProvidanceOfExistingWallPatching + this.ProvidanceOfExistingCeilingPatching + this.ProvideFramingForNotOurTradeCeilings +
+                this.InstallBathroomAccessories + this.InstallDoorsFramesAndHardware);
+
+            Console.WriteLine($"Drywall Total: {drywallTotal}");
+
+            Console.WriteLine($"");
+            Console.WriteLine($"Additional Items:");
+
+            var specialPricingIndex = 1;
+            foreach (var pItem in this.SpecialPricingLineItems)
             {
-                Console.WriteLine($"Gotham Drywall Inc");
-                Console.WriteLine($"");
-                Console.WriteLine($"Project Name: {item.bidInformation.ProjectName}");
-                Console.WriteLine($"Attention To: {item.bidInformation.ProjectClient}");
-                Console.Write($"Date: {item.bidInformation.TodaysDate}");
-                Console.Write($"");
-                Console.WriteLine($"  Bid Revision: {item.bidInformation.VersionOfBid}");
-                Console.Write($"This bid is based off of: {item.bidInformation.BluePrintAddendum}");
-                Console.Write($", dated {item.bidInformation.BluePrintDates} ");
-
-                Console.WriteLine($"");
-                Console.WriteLine($"");
-                Console.WriteLine($"");
-                Console.WriteLine($"28th Floor, Samsung Office:");
-                Console.WriteLine($"1. F & I Drywall Partiitons: {item.FAndIDrywallPartitions}");
-                Console.WriteLine($"2. GWB Ceilings & Soffits: {item.FAndIGypsumCeilingsAndSoffits}");
-                Console.WriteLine($"3. Providance of Wall Blocking: {item.ProvidanceOfWallBlocking}");
-                Console.WriteLine($"4. Providance of Ceiling Blocking: {item.ProvidanceOfCeilingBlocking}");
-                Console.WriteLine($"5. Providance Allowance to patch existing walls: {item.ProvidanceOfExistingWallPatching}");
-                Console.WriteLine($"6. Providance Allowance to patch existing ceilings: {item.ProvidanceOfExistingCeilingPatching}");
-                Console.WriteLine($"7. Providance of framing & plywood to millwork light ceiling: {item.ProvideFramingForNotOurTradeCeilings}");
-                Console.WriteLine($"8. Install only all bathroom accessories: {item.InstallBathroomAccessories}");
-                Console.WriteLine($"9. Install all doors, frames & hatrdware: {item.InstallDoorsFramesAndHardware}");
-
-                int drywallTotal = (item.FAndIDrywallPartitions + item.FAndIGypsumCeilingsAndSoffits + item.ProvidanceOfWallBlocking + item.ProvidanceOfCeilingBlocking
-                    + item.ProvidanceOfExistingWallPatching + item.ProvidanceOfExistingCeilingPatching + item.ProvideFramingForNotOurTradeCeilings +
-                    item.InstallBathroomAccessories + item.InstallDoorsFramesAndHardware);
-
-                Console.WriteLine($"Drywall Total: {drywallTotal}");
-
-                Console.WriteLine($"");
-                Console.WriteLine($"Additional Items:");
-
-                var specialPricingIndex = 1;
-                foreach (var pItem in item.SpecialPricingLineItems)
-                {
-                    Console.WriteLine($"{specialPricingIndex}. {pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
-                    specialPricingIndex++;
-                }
+                Console.WriteLine($"{specialPricingIndex}. {pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
+                specialPricingIndex++;
             }
-
         }
 
         //internal void DisplayProposal()

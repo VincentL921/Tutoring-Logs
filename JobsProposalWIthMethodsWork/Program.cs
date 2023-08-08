@@ -81,11 +81,15 @@ samsungPennOne.SpecialPricingLineItems.Add(samsungActCeilingPricing);
 
 project.Add(samsungPennOne);
 
-samsungPennOne.DisplayProposal();
-//having trouble implementing it into the code now
-//DMW - 8/7/2023 - see notes i put on top of the DisplayProposal method in BidProposal class.
+foreach (var item in project)
+{
+    item.DisplayProposal();
+}
 
-var specialPriceTotal = (samsungHMDoorPricing.SpecialtyPricingProposalPrice + samsungArmstrongMetalWorksPricing.SpecialtyPricingProposalPrice +
+    //having trouble implementing it into the code now
+    //DMW - 8/7/2023 - see notes i put on top of the DisplayProposal method in BidProposal class.
+
+    var specialPriceTotal = (samsungHMDoorPricing.SpecialtyPricingProposalPrice + samsungArmstrongMetalWorksPricing.SpecialtyPricingProposalPrice +
     samsungArkturaSC3CeilingPricing.SpecialtyPricingProposalPrice + samsungArkturaSC2CeilingPricing.SpecialtyPricingProposalPrice +
     samsungArkturaSC1CeilingPricing.SpecialtyPricingProposalPrice + samsungActCeilingPricing.SpecialtyPricingProposalPrice);
 
