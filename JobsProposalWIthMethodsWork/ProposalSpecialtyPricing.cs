@@ -9,9 +9,62 @@ namespace JobsProposalWIthMethodsWork
         public int SpecialtyPricingProposalPrice { get; set; }
         public bool DoesThisVendorNeedItsOwnInstaller { get; set; }
 
+        public void DoorSpecialtyPricing()
+        {
+            this.SpecialPricingDivision = "Furnish All New Hollow Metal Doors, Frames & Hardware";
+            this.OptionalSpecialPricingVendorName = "AAA Doors & HArdware";
+            this.SpecialtyPricingProposalPrice = 11000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
+        public void ACTSpecialPricing()
+        {
+            this.SpecialPricingDivision = "F & I Acoustical Ceiling Tile & Grid";
+            this.OptionalSpecialPricingVendorName = "Metro Interiors Constriction Supply";
+            this.OptionalItemSpecsAndFinish = "USG Glacier 2\'x2\' ACT - White Finish - 15/16\" Donn Grid";
+            this.SpecialtyPricingProposalPrice = 150000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
+        public void ArkturaSC1SpecialPricing()
+        {
+            this.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC1";
+            this.OptionalSpecialPricingVendorName = "Urban Office";
+            this.OptionalItemSpecsAndFinish = "Arktura Softshapes Grid Ceiling";
+            this.SpecialtyPricingProposalPrice = 30000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
+        public void ArkturaSC2SpecialPricing()
+        {
+            this.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC2";
+            this.OptionalSpecialPricingVendorName = "Urban Office";
+            this.OptionalItemSpecsAndFinish = "Arktura SoftGrid Quad Ceiling";
+            this.SpecialtyPricingProposalPrice = 40000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
+        public void ArkturaSC3SpecialPricing()
+        {
+            this.SpecialPricingDivision = "F & I Arktura metal ceiling SC2";
+            this.OptionalSpecialPricingVendorName = "Urban Office";
+            this.OptionalItemSpecsAndFinish = "Arktura Atmosphera Rise Ceiling";
+            this.SpecialtyPricingProposalPrice = 40000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
+        public void ArmstrongMetalCeilingSpecialPricing()
+        {
+            this.SpecialPricingDivision = "F & I Armstrong Metalworks Ceiling";
+            this.OptionalSpecialPricingVendorName = "Kamco";
+            this.OptionalItemSpecsAndFinish = "AArmstrong Metsalworks - Wood look finish";
+            this.SpecialtyPricingProposalPrice = 40000;
+            this.DoesThisVendorNeedItsOwnInstaller = false;
+        }
+
         public ProposalSpecialtyPricing()
 		{
-		}
+        }
 	}
 }
 

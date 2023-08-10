@@ -35,6 +35,69 @@ namespace JobsProposalWIthMethodsWork
         //
         //  So that means you'd leave the foreach loop in program.cs and call the proposal display method within program.cs, within the foreach loop
 
+        //public void BidSpecialtyPricing()
+        //{
+        //    this.SpecialPricingLineItems.SpecialPricingDivision = "Furnish All New Hollow Metal Doors, Frames & Hardware";
+        //    samsungHMDoorPricing.OptionalSpecialPricingVendorName = "AAA Doors & HArdware";
+        //    samsungHMDoorPricing.SpecialtyPricingProposalPrice = 11000;
+        //    samsungHMDoorPricing.DoesThisVendorNeedItsOwnInstaller = false;
+
+        //    samsungActCeilingPricing.SpecialPricingDivision = "F & I Acoustical Ceiling Tile & Grid";
+        //    samsungActCeilingPricing.OptionalSpecialPricingVendorName = "Metro Interiors Constriction Supply";
+        //    samsungActCeilingPricing.OptionalItemSpecsAndFinish = "USG Glacier 2\'x2\' ACT - White Finish - 15/16\" Donn Grid";
+        //    samsungActCeilingPricing.SpecialtyPricingProposalPrice = 150000;
+        //    samsungActCeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
+
+        //    samsungArkturaSC1CeilingPricing.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC1";
+        //    samsungArkturaSC1CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
+        //    samsungArkturaSC1CeilingPricing.OptionalItemSpecsAndFinish = "Arktura Softshapes Grid Ceiling";
+        //    samsungArkturaSC1CeilingPricing.SpecialtyPricingProposalPrice = 30000;
+        //    samsungArkturaSC1CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
+
+        //    samsungArkturaSC2CeilingPricing.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC2";
+        //    samsungArkturaSC2CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
+        //    samsungArkturaSC2CeilingPricing.OptionalItemSpecsAndFinish = "Arktura SoftGrid Quad Ceiling";
+        //    samsungArkturaSC2CeilingPricing.SpecialtyPricingProposalPrice = 40000;
+        //    samsungArkturaSC2CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
+
+        //    samsungArkturaSC3CeilingPricing.SpecialPricingDivision = "F & I Arktura metal ceiling SC2";
+        //    samsungArkturaSC3CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
+        //    samsungArkturaSC3CeilingPricing.OptionalItemSpecsAndFinish = "Arktura Atmosphera Rise Ceiling";
+        //    samsungArkturaSC3CeilingPricing.SpecialtyPricingProposalPrice = 40000;
+        //    samsungArkturaSC3CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
+
+        //    samsungArmstrongMetalWorksPricing.SpecialPricingDivision = "F & I Armstrong Metalworks Ceiling";
+        //    samsungArmstrongMetalWorksPricing.OptionalSpecialPricingVendorName = "Kamco";
+        //    samsungArmstrongMetalWorksPricing.OptionalItemSpecsAndFinish = "AArmstrong Metsalworks - Wood look finish";
+        //    samsungArmstrongMetalWorksPricing.SpecialtyPricingProposalPrice = 40000;
+        //    samsungArmstrongMetalWorksPricing.DoesThisVendorNeedItsOwnInstaller = false;
+        //}
+
+        public void BaseBidPricing()
+        {
+            this.FAndIDrywallPartitions = 100000;
+            this.FAndIGypsumCeilingsAndSoffits = 100000;
+            this.InstallBathroomAccessories = 1500;
+            this.InstallDoorsFramesAndHardware = 3000;
+            this.ProvidanceOfWallBlocking = 5000;
+            this.ProvidanceOfCeilingBlocking = 5000;
+            this.ProvidanceOfExistingWallPatching = 7000;
+            this.ProvidanceOfExistingCeilingPatching = 7000;
+            this.ProvideFramingForNotOurTradeCeilings = 11000;
+        }
+
+        public void JobBidInformation()
+        {
+            this.bidInformation.ProjectName = "VNO Samsung Penn 1 Office";
+            this.bidInformation.ProjectClient = "Turner Construction";
+            this.bidInformation.TypeOfConstruction = "Interior Office Fit-Out";
+            this.bidInformation.TodaysDate = "7/28/2023";
+            this.bidInformation.VersionOfBid = "Original Bid";
+            this.bidInformation.BluePrintAddendum = "Addendum #2 Drawings";
+            this.bidInformation.BluePrintDates = "July 10th, 2023";
+
+        }
+
         public void DisplayProposal()
         {
             Console.WriteLine($"Gotham Drywall Inc");
