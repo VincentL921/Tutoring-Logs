@@ -12,8 +12,8 @@ namespace JobsProposalWIthMethodsWork
         public int ProvidanceOfExistingWallPatching { get; set; }
         public int ProvidanceOfExistingCeilingPatching { get; set; }
         public int ProvideFramingForNotOurTradeCeilings { get; set; }
-
         public BidInformation bidInformation { get; set; }
+
         public List<ProposalSpecialtyPricing> SpecialPricingLineItems { get; set; }
 
         //NOTE - dmw 8/7/2023
@@ -79,7 +79,7 @@ namespace JobsProposalWIthMethodsWork
             this.FAndIGypsumCeilingsAndSoffits = 100000;
             this.InstallBathroomAccessories = 1500;
             this.InstallDoorsFramesAndHardware = 3000;
-            this.ProvidanceOfWallBlocking = 5000;
+            this.ProvidanceOfWallBlocking = 0;
             this.ProvidanceOfCeilingBlocking = 5000;
             this.ProvidanceOfExistingWallPatching = 7000;
             this.ProvidanceOfExistingCeilingPatching = 7000;
@@ -116,7 +116,12 @@ namespace JobsProposalWIthMethodsWork
             Console.WriteLine($"28th Floor, Samsung Office:");
             Console.WriteLine($"1. F & I Drywall Partiitons: {this.FAndIDrywallPartitions}");
             Console.WriteLine($"2. GWB Ceilings & Soffits: {this.FAndIGypsumCeilingsAndSoffits}");
-            Console.WriteLine($"3. Providance of Wall Blocking: {this.ProvidanceOfWallBlocking}");
+
+            if (this.ProvidanceOfWallBlocking > 0)
+            {
+                Console.WriteLine($"3. Providance of Wall Blocking: {this.ProvidanceOfWallBlocking}");
+            }
+            
             Console.WriteLine($"4. Providance of Ceiling Blocking: {this.ProvidanceOfCeilingBlocking}");
             Console.WriteLine($"5. Providance Allowance to patch existing walls: {this.ProvidanceOfExistingWallPatching}");
             Console.WriteLine($"6. Providance Allowance to patch existing ceilings: {this.ProvidanceOfExistingCeilingPatching}");

@@ -20,12 +20,20 @@ samsungPennOne.JobBidInformation();
 samsungPennOne.BaseBidPricing();
 
 
-samsungHMDoorPricing.DoorSpecialtyPricing();
-samsungActCeilingPricing.ACTSpecialPricing();
-samsungArkturaSC1CeilingPricing.ArkturaSC1SpecialPricing();
-samsungArkturaSC2CeilingPricing.ArkturaSC2SpecialPricing();
-samsungArkturaSC3CeilingPricing.ArkturaSC3SpecialPricing();
-samsungArmstrongMetalWorksPricing.ArmstrongMetalCeilingSpecialPricing();
+
+
+samsungActCeilingPricing.Build("David Inc",
+    "Metro Interiors Constriction Supply",
+    "USG Glacier 2\'x2\' ACT - White Finish - 15/16\" Donn Grid",
+    150000,
+    false);
+
+
+//samsungHMDoorPricing.DoorSpecialtyPricing();
+//samsungArkturaSC1CeilingPricing.ArkturaSC1SpecialPricing();
+//samsungArkturaSC2CeilingPricing.ArkturaSC2SpecialPricing();
+//samsungArkturaSC3CeilingPricing.ArkturaSC3SpecialPricing();
+//samsungArmstrongMetalWorksPricing.ArmstrongMetalCeilingSpecialPricing();
 
 
 //^^detailed backend info that goes into what is needed to back up and build an official proposal to present to the client.

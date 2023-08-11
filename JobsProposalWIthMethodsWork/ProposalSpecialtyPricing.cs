@@ -8,7 +8,47 @@ namespace JobsProposalWIthMethodsWork
         public string OptionalItemSpecsAndFinish { get; set; }
         public int SpecialtyPricingProposalPrice { get; set; }
         public bool DoesThisVendorNeedItsOwnInstaller { get; set; }
+        
+        private List<string> AllowedDivisions { get; set; }
 
+        public ProposalSpecialtyPricing()
+        {
+            this.AllowedDivisions = new List<string>();
+            this.AllowedDivisions.Add("David Inc");
+            this.AllowedDivisions.Add("Vincent Bros Inc");
+            this.AllowedDivisions.Add("Gotham LLC");
+        }
+
+        #region Overloaded Method Examples
+
+        public void Build(string division, string vendor, string specsAndFinish, int price)
+        {
+            this.BuildPricing(division, vendor, specsAndFinish, price, false);
+        }
+        
+        public void Build(string division, string vendor, string specsAndFinish, int price, bool needsInstaller)
+        {
+            this.BuildPricing(division, vendor, specsAndFinish, price, needsInstaller);
+        }
+
+        private void BuildPricing(string division, string vendor, string specsAndFinish, int price, bool needsInstaller)
+        {
+            //if (this.AllowedDivisions.Contains(division) == false)
+            //if (!this.AllowedDivisions.Contains(division))
+            if (!this.AllowedDivisions.Contains(division))
+            {
+                throw new ArgumentException($"{division} is not an allowed division");
+            }
+
+            this.SpecialPricingDivision = division;
+            this.OptionalSpecialPricingVendorName = vendor;
+            this.OptionalItemSpecsAndFinish = specsAndFinish;
+            this.SpecialtyPricingProposalPrice = price;
+            this.DoesThisVendorNeedItsOwnInstaller = needsInstaller;
+        }
+
+        #endregion
+        
         public void DoorSpecialtyPricing()
         {
             this.SpecialPricingDivision = "Furnish All New Hollow Metal Doors, Frames & Hardware";
@@ -61,10 +101,7 @@ namespace JobsProposalWIthMethodsWork
             this.SpecialtyPricingProposalPrice = 40000;
             this.DoesThisVendorNeedItsOwnInstaller = false;
         }
-
-        public ProposalSpecialtyPricing()
-		{
-        }
+        
 	}
 }
 
