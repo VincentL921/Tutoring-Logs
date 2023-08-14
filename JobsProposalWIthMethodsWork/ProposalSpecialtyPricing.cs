@@ -14,18 +14,22 @@ namespace JobsProposalWIthMethodsWork
         public ProposalSpecialtyPricing()
         {
             this.AllowedDivisions = new List<string>();
-            this.AllowedDivisions.Add("David Inc");
-            this.AllowedDivisions.Add("Vincent Bros Inc");
-            this.AllowedDivisions.Add("Gotham LLC");
+            this.AllowedDivisions.Add("Furnish All New Hollow Metal Doors, Frames & Hardware");
+            this.AllowedDivisions.Add("F & I Acoustical Ceiling Tile & Grid");
+            this.AllowedDivisions.Add("F & I Arktura Metal Ceiling SC1");
+            this.AllowedDivisions.Add("F & I Arktura Metal Ceiling SC2");
+            this.AllowedDivisions.Add("F & I Arktura metal ceiling SC3");
+            this.AllowedDivisions.Add("F & I Armstrong Metalworks Ceiling");
         }
 
         #region Overloaded Method Examples
+
 
         public void Build(string division, string vendor, string specsAndFinish, int price)
         {
             this.BuildPricing(division, vendor, specsAndFinish, price, false);
         }
-        
+
         public void Build(string division, string vendor, string specsAndFinish, int price, bool needsInstaller)
         {
             this.BuildPricing(division, vendor, specsAndFinish, price, needsInstaller);
@@ -42,13 +46,16 @@ namespace JobsProposalWIthMethodsWork
 
             this.SpecialPricingDivision = division;
             this.OptionalSpecialPricingVendorName = vendor;
-            this.OptionalItemSpecsAndFinish = specsAndFinish;
             this.SpecialtyPricingProposalPrice = price;
             this.DoesThisVendorNeedItsOwnInstaller = needsInstaller;
+            this.OptionalItemSpecsAndFinish = specsAndFinish;
         }
 
         #endregion
-        
+
+
+        #region Vincent's Original Special Pricing Methods
+
         public void DoorSpecialtyPricing()
         {
             this.SpecialPricingDivision = "Furnish All New Hollow Metal Doors, Frames & Hardware";
@@ -86,7 +93,7 @@ namespace JobsProposalWIthMethodsWork
 
         public void ArkturaSC3SpecialPricing()
         {
-            this.SpecialPricingDivision = "F & I Arktura metal ceiling SC2";
+            this.SpecialPricingDivision = "F & I Arktura metal ceiling SC3";
             this.OptionalSpecialPricingVendorName = "Urban Office";
             this.OptionalItemSpecsAndFinish = "Arktura Atmosphera Rise Ceiling";
             this.SpecialtyPricingProposalPrice = 40000;
@@ -101,8 +108,10 @@ namespace JobsProposalWIthMethodsWork
             this.SpecialtyPricingProposalPrice = 40000;
             this.DoesThisVendorNeedItsOwnInstaller = false;
         }
-        
-	}
+
+        #endregion
+
+    }
 }
 
 

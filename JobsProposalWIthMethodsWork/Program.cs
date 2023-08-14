@@ -21,11 +21,37 @@ samsungPennOne.BaseBidPricing();
 
 
 
+samsungHMDoorPricing.Build("Furnish All New Hollow Metal Doors, Frames & Hardware",
+    "AAA Doors & HArdware", "", 11000, false);
 
-samsungActCeilingPricing.Build("David Inc",
+samsungActCeilingPricing.Build("F & I Acoustical Ceiling Tile & Grid",
     "Metro Interiors Constriction Supply",
     "USG Glacier 2\'x2\' ACT - White Finish - 15/16\" Donn Grid",
     150000,
+    false);
+
+samsungArkturaSC1CeilingPricing.Build("F & I Arktura Metal Ceiling SC1",
+    "Urban Office",
+    "Arktura Softshapes Grid Ceiling",
+    30000,
+    false);
+
+samsungArkturaSC2CeilingPricing.Build("F & I Arktura Metal Ceiling SC2",
+    "Urban Office",
+    "Arktura SoftGrid Quad Ceiling",
+    40000,
+    false);
+
+samsungArkturaSC3CeilingPricing.Build("F & I Arktura Metal Ceiling SC2",
+    "Urban Office",
+    "Arktura Atmosphera Rise Ceiling",
+    40000,
+    false);
+
+samsungArmstrongMetalWorksPricing.Build("F & I Armstrong Metalworks Ceiling",
+    "Kamco",
+    "Armstrong Metsalworks - Wood look finish",
+    50000,
     false);
 
 

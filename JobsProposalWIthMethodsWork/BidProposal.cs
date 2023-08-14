@@ -33,45 +33,8 @@ namespace JobsProposalWIthMethodsWork
         //  Then, you'd leave the consumer of this class, the code that utilizes this class / "consumes" it, to be responsible with determining whether
         // it needs to display 1 proposal or multiple proposals worth of data.
         //
-        //  So that means you'd leave the foreach loop in program.cs and call the proposal display method within program.cs, within the foreach loop
+        //  So that means you'd leave the foreach loop in program.cs and call the proposal display method within program.cs, within the foreach loop.
 
-        //public void BidSpecialtyPricing()
-        //{
-        //    this.SpecialPricingLineItems.SpecialPricingDivision = "Furnish All New Hollow Metal Doors, Frames & Hardware";
-        //    samsungHMDoorPricing.OptionalSpecialPricingVendorName = "AAA Doors & HArdware";
-        //    samsungHMDoorPricing.SpecialtyPricingProposalPrice = 11000;
-        //    samsungHMDoorPricing.DoesThisVendorNeedItsOwnInstaller = false;
-
-        //    samsungActCeilingPricing.SpecialPricingDivision = "F & I Acoustical Ceiling Tile & Grid";
-        //    samsungActCeilingPricing.OptionalSpecialPricingVendorName = "Metro Interiors Constriction Supply";
-        //    samsungActCeilingPricing.OptionalItemSpecsAndFinish = "USG Glacier 2\'x2\' ACT - White Finish - 15/16\" Donn Grid";
-        //    samsungActCeilingPricing.SpecialtyPricingProposalPrice = 150000;
-        //    samsungActCeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
-
-        //    samsungArkturaSC1CeilingPricing.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC1";
-        //    samsungArkturaSC1CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
-        //    samsungArkturaSC1CeilingPricing.OptionalItemSpecsAndFinish = "Arktura Softshapes Grid Ceiling";
-        //    samsungArkturaSC1CeilingPricing.SpecialtyPricingProposalPrice = 30000;
-        //    samsungArkturaSC1CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
-
-        //    samsungArkturaSC2CeilingPricing.SpecialPricingDivision = "F & I Arktura Metal Ceiling SC2";
-        //    samsungArkturaSC2CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
-        //    samsungArkturaSC2CeilingPricing.OptionalItemSpecsAndFinish = "Arktura SoftGrid Quad Ceiling";
-        //    samsungArkturaSC2CeilingPricing.SpecialtyPricingProposalPrice = 40000;
-        //    samsungArkturaSC2CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
-
-        //    samsungArkturaSC3CeilingPricing.SpecialPricingDivision = "F & I Arktura metal ceiling SC2";
-        //    samsungArkturaSC3CeilingPricing.OptionalSpecialPricingVendorName = "Urban Office";
-        //    samsungArkturaSC3CeilingPricing.OptionalItemSpecsAndFinish = "Arktura Atmosphera Rise Ceiling";
-        //    samsungArkturaSC3CeilingPricing.SpecialtyPricingProposalPrice = 40000;
-        //    samsungArkturaSC3CeilingPricing.DoesThisVendorNeedItsOwnInstaller = false;
-
-        //    samsungArmstrongMetalWorksPricing.SpecialPricingDivision = "F & I Armstrong Metalworks Ceiling";
-        //    samsungArmstrongMetalWorksPricing.OptionalSpecialPricingVendorName = "Kamco";
-        //    samsungArmstrongMetalWorksPricing.OptionalItemSpecsAndFinish = "AArmstrong Metsalworks - Wood look finish";
-        //    samsungArmstrongMetalWorksPricing.SpecialtyPricingProposalPrice = 40000;
-        //    samsungArmstrongMetalWorksPricing.DoesThisVendorNeedItsOwnInstaller = false;
-        //}
 
         public void BaseBidPricing()
         {
