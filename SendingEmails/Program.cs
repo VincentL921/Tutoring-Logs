@@ -8,15 +8,15 @@ namespace SendingEmails
     {
         public static void Main(string[] args)
         {
-            MailAddress to = new MailAddress("dmwimbley0606@gmail.com");
+            MailAddress to = new MailAddress("vincentl921@gmail.com");
             MailAddress from = new MailAddress("VincentL921@gmail.com");
 
             MailMessage email = new MailMessage(from, to);
             email.Subject = "Testing Out Email Sending";
-            email.Body = "What's gucci bro.";
+            email.Body = "Attachment Testing";
 
             System.Net.Mail.Attachment attachment;
-            attachment = new Attachment("https://youtu.be/bHW7JkHWtf4");
+            attachment = new System.Net.Mail.Attachment("pink_guy_by_sibbies_dac3nzo-fullview");
             email.Attachments.Add(attachment);
 
             SmtpClient smtp = new SmtpClient();
@@ -28,14 +28,14 @@ namespace SendingEmails
 
             smtp.Send(email);
 
-            //try
-            //{
-            //    smtp.Send(email);
-            //}
-            //catch (SmtpException ex)
-            //{
-            //    Console.WriteLine(ex.ToString());
-            //}
+            try
+            {
+                smtp.Send(email);
+            }
+            catch (SmtpException ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
     }
 }

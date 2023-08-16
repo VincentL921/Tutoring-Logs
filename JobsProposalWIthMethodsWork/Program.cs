@@ -20,7 +20,6 @@ samsungPennOne.JobBidInformation();
 samsungPennOne.BaseBidPricing();
 
 
-
 samsungHMDoorPricing.Build("Furnish All New Hollow Metal Doors, Frames & Hardware",
     "AAA Doors & HArdware", "", 11000, false);
 
