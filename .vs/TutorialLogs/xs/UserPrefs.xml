@@ -1,84 +1,85 @@
 ﻿<Properties StartupConfiguration="{A393A809-1ABB-4A4A-9B3E-F286AE2C3A2B}|Default">
-  <MonoDevelop.Ide.ItemProperties.JobsProposalClassesExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.RestaurantMenuWithClassesProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ReverseNameTestReTry PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CarCountryExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.NumberSeventyFiveExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.PublicVsPrivateLesson FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.FizzBuzzTestEdit PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.WhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.TrueOrFalseProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.CaesarCipherReTake PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.JobsProposalWIthMethodsWork PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ArrayItemsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.JumpStatementsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ReverseNameTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NumberSeventyFiveExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTestEdit PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CarCountryExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CaesarCypherProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PropertiesLessonMac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.RestaurantMenuProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ProjectManagementWithMethods FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../LastNameBruteForce/Program.cs" line="22" column="39" endLine="22" endColumn="54" offsetX="-1" offsetY="-1" expression="siblingLastName" liveUpdate="False" />
     <Watch file="../../../RestaurantMenuProject/Program.cs" line="30" column="24" endLine="30" endColumn="38" offsetX="-1" offsetY="-1" expression="inputAsInt &lt; 5" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.ReverseNameTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectManagementWork/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.LINQPractice FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ArrayLength PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BeachClassesExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.RestaurantMenuWithClassesProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SendingEmails PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.AgeRulesProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ForLoopsExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ProjectManagementWork PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LINQDotWherePractce FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.JobsProposalWIthMethodsWork PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LastNameSiblingExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FiveKLogs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PasswordChecker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.AutomaticPropertiesExercise FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ClassesLessonWithDave PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OfficeClassesLesson PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LastNameBruteForce PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ComparingLoopsProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ReverseNameTestReTry PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PublicVsPrivateLesson FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JobsProposalWIthMethodsWork/BidProposal.cs">
     <Files>
-      <File FileName="JobsProposalClassesExercise/Program.cs" Line="1" Column="1" />
-      <File FileName="ProjectManagementWork/Program.cs" Line="9" Column="1" />
-      <File FileName="ProjectManagementWork/JobDescription.cs" Line="11" Column="10" />
-      <File FileName="ProjectManagementWork/PaymentAndCompensation.cs" Line="1" Column="1" />
-      <File FileName="ProjectManagementWork/DailyTasksOfJob.cs" Line="7" Column="44" />
-      <File FileName="ProjectManagementWork/JobQualifications.cs" Line="10" Column="50" />
-      <File FileName="ProjectManagementWork/JobLocation.cs" Line="9" Column="51" />
-      <File FileName="ProjectManagementWork/Company.cs" Line="7" Column="39" />
-      <File FileName="JobsProposalClassesExercise/BidProposal.cs" Line="1" Column="1" />
-      <File FileName="JobsProposalClassesExercise/BidInformation.cs" Line="1" Column="1" />
+      <File FileName="ProjectManagementWithMethods/Program.cs" Line="3" Column="36" />
+      <File FileName="ProjectManagementWithMethods/Company.cs" Line="12" Column="2" />
+      <File FileName="ProjectManagementWithMethods/DailyTasksOfJob.cs" Line="14" Column="1" />
+      <File FileName="ProjectManagementWithMethods/JobDescription.cs" Line="18" Column="1" />
+      <File FileName="ProjectManagementWithMethods/JobLocation.cs" Line="16" Column="2" />
+      <File FileName="ProjectManagementWithMethods/JobQualifications.cs" Line="17" Column="1" />
+      <File FileName="ProjectManagementWithMethods/PaymentAndCompensation.cs" Line="16" Column="2" />
+      <File FileName="JobsProposalWIthMethodsWork/Program.cs" Line="1" Column="1" />
+      <File FileName="JobsProposalWIthMethodsWork/BidInformation.cs" Line="1" Column="1" />
+      <File FileName="JobsProposalWIthMethodsWork/BidProposal.cs" Line="9" Column="63" />
+      <File FileName="JobsProposalWIthMethodsWork/ProposalSpecialtyPricing.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TutorialLogs">
-            <Node name="JobsProposalClassesExercise" expanded="True" />
-            <Node name="ProjectManagementWork">
-              <Node name="Program.cs" selected="True" />
+          <Node name="TutorialLogs" expanded="True">
+            <Node name="JobsProposalWIthMethodsWork" expanded="True">
+              <Node name="BidProposal.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LINQDotWherePractce FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ForEachLoopProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.JumpStatementsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FizzBuzzTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MadLibsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FiveKLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MakingClassesLesson FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.BeachClassesExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CaesarCypherProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.SendingEmails PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.RestaurantMenuProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ClassesLessonWithDave PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.DoWhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ProjectManagementWork PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ComparingLoopsProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ArrayLength PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.OfficeClassesLesson PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ComparisonOperatorsTravelExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AutomaticPropertiesExercise FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.LastNameSiblingExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.FieldsLessonExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.BuiltInMethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LastNameBruteForce PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AgeRulesProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.DocumentationHuntExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WhileLoopExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.EditingArraysExercise PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.TutorialLogs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LINQPractice FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.PropertiesLessonMac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ChooseAdventureProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MoneyMakerProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TrueOrFalseProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MadLibsProjectRevised PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FieldsLessonExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.JobsProposalClassesExercise PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MakingClassesLesson FirstBuild="True" />
 </Properties>

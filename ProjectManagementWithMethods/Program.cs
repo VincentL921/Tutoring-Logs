@@ -1,6 +1,6 @@
 ﻿
 using System.Linq;
-using ProjectManagementWork;
+using ProjectManagementWithMethods;
 
 List<JobDescription> jobPosting = new List<JobDescription>();
 var seniorProjectManager = new JobDescription();
@@ -121,3 +121,4 @@ foreach (var item in jobPosting)
     Console.WriteLine($"- PTO: {item.PaymentAndCompensation.PTO} paid for sick/leave days.");
     Console.WriteLine($"- Insurance: {item.PaymentAndCompensation.InsuranceAndBenefits}");
 }
+

@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendingEmails", "SendingEma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementWork", "ProjectManagementWork\ProjectManagementWork.csproj", "{A393A809-1ABB-4A4A-9B3E-F286AE2C3A2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementWithMethods", "ProjectManagementWithMethods\ProjectManagementWithMethods.csproj", "{5113A18D-3E82-4D95-A7ED-D8723955F58D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{A393A809-1ABB-4A4A-9B3E-F286AE2C3A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A393A809-1ABB-4A4A-9B3E-F286AE2C3A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A393A809-1ABB-4A4A-9B3E-F286AE2C3A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5113A18D-3E82-4D95-A7ED-D8723955F58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5113A18D-3E82-4D95-A7ED-D8723955F58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5113A18D-3E82-4D95-A7ED-D8723955F58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5113A18D-3E82-4D95-A7ED-D8723955F58D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
