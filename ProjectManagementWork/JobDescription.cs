@@ -2,17 +2,17 @@
 namespace ProjectManagementWork
 {
 	public class JobDescription
-	{
-        public string JobTitle { get; set; }
-		public string JobLocation { get; set; }
-		public string CompanyName { get; set; }
-        public PaymentAndCompensation paymentAndCompensation { get; set; }
-		public JobQualifications jobQualifications { get; set; }
-		public DailyTasksOfJob dailyTasksOfJob { get; set; }
+	{ 
+        public Company Company { get; set; }
+		public JobLocation JobLocation { get; set; }
+        public PaymentAndCompensation PaymentAndCompensation { get; set; }
+		public JobQualifications JobQualifications { get; set; }
+
+        public List<DailyTasksOfJob> DailyTasksOfJob { get; set; }
 
         public JobDescription()
 		{
-		}
+        }
 	}
 }
 
