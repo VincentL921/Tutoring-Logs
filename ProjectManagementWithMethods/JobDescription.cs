@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 namespace ProjectManagementWithMethods
 {
     public class JobDescription
@@ -51,53 +53,57 @@ namespace ProjectManagementWithMethods
 
         public void JobListing()
         {
-            Console.WriteLine($"Job Listing:");
-            Console.WriteLine($"Position Title: {this.Company.JobTitle}");
-            Console.WriteLine($"Comapny Name: {this.Company.CompanyName}");
-            Console.WriteLine($"Company Address: {this.JobLocation.StreetAddress}, {this.JobLocation.City} {this.JobLocation.State} {this.JobLocation.Zip}");
+            StringBuilder builder = new StringBuilder();
+
+            builder.AppendLine($"Job Listing:");
+            builder.AppendLine($"Position Title: {this.Company.JobTitle}");
+            builder.AppendLine($"Comapny Name: {this.Company.CompanyName}");
+            builder.AppendLine($"Company Address: {this.JobLocation.StreetAddress}, {this.JobLocation.City} {this.JobLocation.State} {this.JobLocation.Zip}");
             if (this.JobLocation.DoesThisPositionGoOnSite == true)
             {
-                Console.WriteLine("This position requires you to be both on project sites & in the office.");
+                builder.AppendLine("This position requires you to be both on project sites & in the office.");
             }
             else
             {
-                Console.WriteLine("This only requires you to be in the office only. No site visits are required.");
+                builder.AppendLine("This only requires you to be in the office only. No site visits are required.");
             }
 
-            Console.WriteLine($"");
+            builder.AppendLine($"");
 
-            Console.WriteLine($"Required Tasks for This Position:");
+            builder.AppendLine($"Required Tasks for This Position:");
             var indexForDailyTasksLoop = 1;
             foreach (var jitem in this.DailyTasksOfJob)
             {
-                Console.WriteLine($"- {jitem.NameOfTask}: {jitem.TaskDescription}");
+                builder.AppendLine($"- {jitem.NameOfTask}: {jitem.TaskDescription}");
                 indexForDailyTasksLoop++;
             }
 
-            Console.WriteLine($"");
+            builder.AppendLine($"");
 
-            Console.WriteLine($"Job Qualifications:");
-            Console.WriteLine($"- {this.JobQualifications.Education}");
-            Console.WriteLine($"- {this.JobQualifications.YearsOfExperience} years of high rise construction experience is needed.");
-            Console.WriteLine($"- {this.JobQualifications.SkillsetsForPosition}");
-            Console.WriteLine($"- {this.JobQualifications.CommunicationExperience}");
-            Console.WriteLine($"- {this.JobQualifications.TechnicalExperience}");
+            builder.AppendLine($"Job Qualifications:");
+            builder.AppendLine($"- {this.JobQualifications.Education}");
+            builder.AppendLine($"- {this.JobQualifications.YearsOfExperience} years of high rise construction experience is needed.");
+            builder.AppendLine($"- {this.JobQualifications.SkillsetsForPosition}");
+            builder.AppendLine($"- {this.JobQualifications.CommunicationExperience}");
+            builder.AppendLine($"- {this.JobQualifications.TechnicalExperience}");
 
-            Console.WriteLine($"");
+            builder.AppendLine($"");
 
-            Console.WriteLine($"Payment & Compensation:");
-            Console.WriteLine($"- Annual Salary: ${this.PaymentAndCompensation.Salary} per year.");
-            Console.WriteLine($"- Bonus: {this.PaymentAndCompensation.Bonus}");
-            Console.WriteLine($"- Vacation: {this.PaymentAndCompensation.Vacation} paid holidays.");
-            Console.WriteLine($"- PTO: {this.PaymentAndCompensation.PTO} paid for sick/leave days.");
-            Console.WriteLine($"- Insurance: {this.PaymentAndCompensation.InsuranceAndBenefits}");
+            builder.AppendLine($"Payment & Compensation:");
+            builder.AppendLine($"- Annual Salary: ${this.PaymentAndCompensation.Salary} per year.");
+            builder.AppendLine($"- Bonus: {this.PaymentAndCompensation.Bonus}");
+            builder.AppendLine($"- Vacation: {this.PaymentAndCompensation.Vacation} paid holidays.");
+            builder.AppendLine($"- PTO: {this.PaymentAndCompensation.PTO} paid for sick/leave days.");
+            builder.AppendLine($"- Insurance: {this.PaymentAndCompensation.InsuranceAndBenefits}");
         }
 
         #endregion
 
         public JobDescription()
         {
+            //StringBuilder sB = new StringBuilder();
         }
+
     }
 }
 

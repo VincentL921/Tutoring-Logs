@@ -1,5 +1,6 @@
 ﻿
 using System.Linq;
+using System.Text;
 using ProjectManagementWithMethods;
 
 List<JobDescription> jobPosting = new List<JobDescription>();
@@ -20,7 +21,10 @@ var costEstimation = new DailyTasksOfJob();
 var preConstruction = new DailyTasksOfJob();
 var designPhase = new DailyTasksOfJob();
 
+//StringBuilder practice
+StringBuilder builder = new StringBuilder();
 
+#region Class Properties
 seniorProjectManager.JobTitleAndCompanyName();
 seniorProjectManager.CompanyAddressAndOnSiteBool();
 seniorProjectManager.PositionQualifications();
@@ -49,7 +53,7 @@ preConstruction.Build("Pre-Con",
 
 designPhase.Build("Design Phase",
     "You will be working with architects and engineers to refine the conceptual design of the drawings. You will also help ensure effective communication among all design disciplines including architects, engineers, and consultants.");
-
+#endregion
 
 jobPosting.Add(seniorProjectManager);
 seniorProjectManager.DailyTasksOfJob.Add(supportingTheProject);
