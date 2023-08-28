@@ -12,6 +12,8 @@ namespace ProjectManagementWithMethods
 
         public List<DailyTasksOfJob> DailyTasksOfJob { get; set; }
 
+        private string Builder { get; set; }
+
         #region Class Properties & Job Listing Methods
 
         public void JobTitleAndCompanyName()
@@ -95,6 +97,8 @@ namespace ProjectManagementWithMethods
             builder.AppendLine($"- Vacation: {this.PaymentAndCompensation.Vacation} paid holidays.");
             builder.AppendLine($"- PTO: {this.PaymentAndCompensation.PTO} paid for sick/leave days.");
             builder.AppendLine($"- Insurance: {this.PaymentAndCompensation.InsuranceAndBenefits}");
+
+            //builder.ToString(Builder);
         }
 
         #endregion

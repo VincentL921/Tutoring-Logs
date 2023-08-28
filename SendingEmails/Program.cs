@@ -16,7 +16,7 @@ namespace SendingEmails
             email.Body = "Attachment Testing";
 
             System.Net.Mail.Attachment attachment;
-            attachment = new System.Net.Mail.Attachment("pink_guy_by_sibbies_dac3nzo-fullview");
+            attachment = new System.Net.Mail.Attachment("/Users/vincentlentini/Desktop/Email Test");
             email.Attachments.Add(attachment);
 
             SmtpClient smtp = new SmtpClient();

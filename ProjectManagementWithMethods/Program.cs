@@ -22,7 +22,7 @@ var preConstruction = new DailyTasksOfJob();
 var designPhase = new DailyTasksOfJob();
 
 //StringBuilder practice
-StringBuilder builder = new StringBuilder();
+//StringBuilder builder = new StringBuilder();
 
 #region Class Properties
 seniorProjectManager.JobTitleAndCompanyName();
