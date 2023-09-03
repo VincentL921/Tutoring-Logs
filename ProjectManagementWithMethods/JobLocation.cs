@@ -7,7 +7,7 @@ namespace ProjectManagementWithMethods
         public string City { get; set; }
         public string State { get; set; }
         public int Zip { get; set; }
-        public bool DoesThisPositionGoOnSite { get; set; }
+        public bool PositionOnSite { get; set; }
 
         public JobLocation()
         {

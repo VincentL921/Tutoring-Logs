@@ -7,7 +7,7 @@ namespace ProjectManagementWithMethods
         public string Bonus { get; set; }
         public int Vacation { get; set; }
         public int PTO { get; set; }
-        public string InsuranceAndBenefits { get; set; }
+        public string InsuranceBenefits { get; set; }
 
         public PaymentAndCompensation()
         {

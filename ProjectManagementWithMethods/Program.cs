@@ -11,24 +11,24 @@ seniorProjectManager.JobLocation = new JobLocation();
 seniorProjectManager.JobQualifications = new JobQualifications();
 seniorProjectManager.PaymentAndCompensation = new PaymentAndCompensation();
 
-seniorProjectManager.DailyTasksOfJob = new List<DailyTasksOfJob>();
-var supportingTheProject = new DailyTasksOfJob();
-var communicationAndCoordination = new DailyTasksOfJob();
-var documentationAndReporting = new DailyTasksOfJob();
-var riskManagement = new DailyTasksOfJob();
-var bidLeveling = new DailyTasksOfJob();
-var costEstimation = new DailyTasksOfJob();
-var preConstruction = new DailyTasksOfJob();
-var designPhase = new DailyTasksOfJob();
+seniorProjectManager.JobTasks = new List<JobTasks>();
+var supportingTheProject = new JobTasks();
+var communicationAndCoordination = new JobTasks();
+var documentationAndReporting = new JobTasks();
+var riskManagement = new JobTasks();
+var bidLeveling = new JobTasks();
+var costEstimation = new JobTasks();
+var preConstruction = new JobTasks();
+var designPhase = new JobTasks();
 
 //StringBuilder practice
 //StringBuilder builder = new StringBuilder();
 
 #region Class Properties
-seniorProjectManager.JobTitleAndCompanyName();
-seniorProjectManager.CompanyAddressAndOnSiteBool();
-seniorProjectManager.PositionQualifications();
-seniorProjectManager.PayAndCompInfo();
+seniorProjectManager.PositionAndCompany();
+seniorProjectManager.CompanyAddress();
+seniorProjectManager.Qualifications();
+seniorProjectManager.JobSalary();
 
 supportingTheProject.Build("Supporting The Project",
     "You will assist the Director of Construction in various tasks, such as managing staff like inspectors, schedulers, estimators, and site safety personnel. Other tasks include coordinating and organizing project plans, scheduling meetings, allocating project resources, and monitoring construction schedule progress.");
@@ -56,14 +56,14 @@ designPhase.Build("Design Phase",
 #endregion
 
 jobPosting.Add(seniorProjectManager);
-seniorProjectManager.DailyTasksOfJob.Add(supportingTheProject);
-seniorProjectManager.DailyTasksOfJob.Add(communicationAndCoordination);
-seniorProjectManager.DailyTasksOfJob.Add(documentationAndReporting);
-seniorProjectManager.DailyTasksOfJob.Add(riskManagement);
-seniorProjectManager.DailyTasksOfJob.Add(bidLeveling);
-seniorProjectManager.DailyTasksOfJob.Add(costEstimation);
-seniorProjectManager.DailyTasksOfJob.Add(preConstruction);
-seniorProjectManager.DailyTasksOfJob.Add(designPhase);
+seniorProjectManager.JobTasks.Add(supportingTheProject);
+seniorProjectManager.JobTasks.Add(communicationAndCoordination);
+seniorProjectManager.JobTasks.Add(documentationAndReporting);
+seniorProjectManager.JobTasks.Add(riskManagement);
+seniorProjectManager.JobTasks.Add(bidLeveling);
+seniorProjectManager.JobTasks.Add(costEstimation);
+seniorProjectManager.JobTasks.Add(preConstruction);
+seniorProjectManager.JobTasks.Add(designPhase);
 
 foreach (var item in jobPosting)
 {

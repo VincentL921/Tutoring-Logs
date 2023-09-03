@@ -1,14 +1,14 @@
 ﻿using System;
 namespace ProjectManagementWithMethods
 {
-    public class DailyTasksOfJob
+    public class JobTasks
     {
         public string NameOfTask { get; set; }
         public string TaskDescription { get; set; }
 
         private List<string> AllowedDivisions { get; set; }
 
-        public DailyTasksOfJob()
+        public JobTasks()
         {
             this.AllowedDivisions = new List<string>();
             this.AllowedDivisions.Add("Supporting The Project");

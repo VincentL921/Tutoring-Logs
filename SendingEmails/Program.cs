@@ -8,7 +8,7 @@ namespace SendingEmails
     {
         public static void Main(string[] args)
         {
-            MailAddress to = new MailAddress("vincentl921@gmail.com");
+            MailAddress to = new MailAddress("dmwimbley0606@gmail.com");
             MailAddress from = new MailAddress("VincentL921@gmail.com");
 
             MailMessage email = new MailMessage(from, to);
@@ -16,7 +16,7 @@ namespace SendingEmails
             email.Body = "Attachment Testing";
 
             System.Net.Mail.Attachment attachment;
-            attachment = new System.Net.Mail.Attachment("/Users/vincentlentini/Desktop/Email Test");
+            attachment = new System.Net.Mail.Attachment("/Users/vincentlentini/Desktop/Email Test/capy-thanksgiving-v0-qaz03oxvvy1a1.webp");
             email.Attachments.Add(attachment);
 
             SmtpClient smtp = new SmtpClient();
