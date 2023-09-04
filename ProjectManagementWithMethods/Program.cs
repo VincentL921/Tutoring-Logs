@@ -5,11 +5,12 @@ using ProjectManagementWithMethods;
 
 List<JobDescription> jobPosting = new List<JobDescription>();
 var seniorProjectManager = new JobDescription();
+var softwareEngineer = new JobDescription();
 
-seniorProjectManager.Company = new Company();
-seniorProjectManager.JobLocation = new JobLocation();
-seniorProjectManager.JobQualifications = new JobQualifications();
-seniorProjectManager.PaymentAndCompensation = new PaymentAndCompensation();
+//seniorProjectManager.Company = new Company();
+//seniorProjectManager.JobLocation = new JobLocation();
+//seniorProjectManager.JobQualifications = new JobQualifications();
+//seniorProjectManager.PaymentAndCompensation = new PaymentAndCompensation();
 
 seniorProjectManager.JobTasks = new List<JobTasks>();
 var supportingTheProject = new JobTasks();
@@ -25,8 +26,14 @@ var designPhase = new JobTasks();
 //StringBuilder builder = new StringBuilder();
 
 #region Class Properties
-seniorProjectManager.PositionAndCompany();
-seniorProjectManager.CompanyAddress();
+//seniorProjectManager.PositionAndCompany();
+seniorProjectManager.PositionAndCompany("Senior Project Manager", "Gotham Drywall LLC");
+softwareEngineer.PositionAndCompany("Senior Software Engineer", "Code Blocks LLC");
+
+
+//seniorProjectManager.CompanyAddress();
+seniorProjectManager.CompanyAddress("", "", "", "", true);
+
 seniorProjectManager.Qualifications();
 seniorProjectManager.JobSalary();
 
@@ -55,7 +62,12 @@ designPhase.Build("Design Phase",
     "You will be working with architects and engineers to refine the conceptual design of the drawings. You will also help ensure effective communication among all design disciplines including architects, engineers, and consultants.");
 #endregion
 
-jobPosting.Add(seniorProjectManager);
+// Do all the "manipulations" to the object before adding to a main/primary collection like job posting.
+// meaning, set all the proeprties/values to the object, add all items to the collections that are properties
+//      within the object before adding it to the main collection.
+//      In this case that main collection is jobPosting.
+//
+//jobPosting.Add(seniorProjectManager);
 seniorProjectManager.JobTasks.Add(supportingTheProject);
 seniorProjectManager.JobTasks.Add(communicationAndCoordination);
 seniorProjectManager.JobTasks.Add(documentationAndReporting);
@@ -65,8 +77,17 @@ seniorProjectManager.JobTasks.Add(costEstimation);
 seniorProjectManager.JobTasks.Add(preConstruction);
 seniorProjectManager.JobTasks.Add(designPhase);
 
+
+
+//Added software engineer object to collection to demonstrate reusability.
+jobPosting.Add(softwareEngineer);
+jobPosting.Add(seniorProjectManager);
+
 foreach (var item in jobPosting)
 {
     item.JobListing();
+    Console.WriteLine(Environment.NewLine);
+    Console.WriteLine(Environment.NewLine);
+    Console.WriteLine(Environment.NewLine);
 }
 

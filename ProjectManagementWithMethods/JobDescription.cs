@@ -16,20 +16,32 @@ namespace ProjectManagementWithMethods
 
         #region Class Properties & Job Listing Methods
 
-        public void PositionAndCompany()
+        //To make reusable, change hard coded string values like "Senior Project Manager" to use a variable passed in
+        //  through the method.
+        //public void PositionAndCompany()
+        public void PositionAndCompany(string jobTitle, string companyName)
         {
-            this.Company.JobTitle = "Senior Project Manager";
-            this.Company.CompanyName = "Gotham Drywall Inc";
+            //this.Company.JobTitle = "Senior Project Manager";
+            this.Company.JobTitle = jobTitle;
+            //this.Company.CompanyName = "Gotham Drywall Inc";
+            this.Company.CompanyName = companyName;
         }
 
 
-        public void CompanyAddress()
+        //public void CompanyAddress()
+        public void CompanyAddress(string address, string city, string state, string zip ,bool isOnSite)
         {
-            this.JobLocation.StreetAddress = "244-250 Green Street";
-            this.JobLocation.City = "Brooklyn";
-            this.JobLocation.State = "NY";
-            this.JobLocation.Zip = 11222;
-            this.JobLocation.PositionOnSite = true;
+            //this.JobLocation.StreetAddress = "244-250 Green Street";
+            //this.JobLocation.City = "Brooklyn";
+            //this.JobLocation.State = "NY";
+            //this.JobLocation.Zip = 11222;
+            //this.JobLocation.PositionOnSite = true;
+            
+            this.JobLocation.StreetAddress = address;
+            this.JobLocation.City = city;
+            this.JobLocation.State = state;
+            this.JobLocation.Zip = zip;
+            this.JobLocation.PositionOnSite = isOnSite;
         }
 
 
@@ -103,9 +115,21 @@ namespace ProjectManagementWithMethods
 
         #endregion
 
+        //public JobDescription()
+        //{
+        //}
+
+        // Move object creation/instantation for properties of this object into the constructor to make reusability easier going forward.
+        // On call, softwareEngineer object errored out because these properties were null, so instead of duplicating effort/code by having
+        //  to set the same values over again, moving it to the constructor allows it to be set once and then be good for
+        //  an infinite amount of job description
         public JobDescription()
         {
-
+            this.Company = new Company();
+            this.JobLocation = new JobLocation();
+            this.JobQualifications = new JobQualifications();
+            this.PaymentAndCompensation = new PaymentAndCompensation();
+            this.JobTasks = new List<JobTasks>();
         }
 
     }
