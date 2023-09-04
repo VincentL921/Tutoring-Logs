@@ -5,6 +5,10 @@ namespace ProjectManagementWithMethods
 {
     public class JobDescription
     {
+        //private variable at the class level, but private. 
+        //  you might also see it called a private member variable
+        //
+        private string _jobDescription = string.Empty;
         public Company Company { get; set; }
         public JobLocation JobLocation { get; set; }
         public PaymentAndCompensation PaymentAndCompensation { get; set; }
@@ -45,6 +49,7 @@ namespace ProjectManagementWithMethods
         }
 
 
+        
         public void Qualifications()
         {
             this.JobQualifications.Education = "Bachelor’s degree in a relevant field such as project management, business administration, engineering, and /or construction management.";
@@ -65,7 +70,8 @@ namespace ProjectManagementWithMethods
         }
 
 
-        public void JobListing()
+        //public void JobListing()
+        public void BuildJobListing()
         {
             StringBuilder builder = new StringBuilder();
 
@@ -109,8 +115,22 @@ namespace ProjectManagementWithMethods
             builder.AppendLine($"- PTO: {this.PaymentAndCompensation.PTO} paid for sick/leave days.");
             builder.AppendLine($"- Insurance: {this.PaymentAndCompensation.InsuranceBenefits}");
 
-            string result = builder.ToString();
-            Console.WriteLine(result);
+            //Removed string result = builder.ToString();
+            //Removed Console.WriteLine(result);
+            //Idea here is that before you display the listing and save to file, you call .BuildJobListing() first.
+            //
+            _jobDescription = builder.ToString();
+        }
+
+        public void DisplayJobListing()
+        {
+            Console.WriteLine(_jobDescription);
+        }
+
+        public void SaveJobListing()
+        {
+            //TODO: Figure out how to write job description output to a file.
+            //  Save it to a file called {job name}.txt
         }
 
         #endregion
