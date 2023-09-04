@@ -127,11 +127,18 @@ namespace ProjectManagementWithMethods
             Console.WriteLine(_jobDescription);
         }
 
+        //Make SaveJobListing return a string value which is the file path of what you've created.
+        // ex: c:\temp\myjob.txt <- full file path
+        //             myjob.txt <- just the filename
         public void SaveJobListing()
         {
             //TODO: Figure out how to write job description output to a file.
             //  Save it to a file called {job name}.txt
         }
+
+        //TODO: Add another method to email the job description, should have 2 arguments to the method
+        //  1 for email address to send to...meaning you could send to me, your mom, your borhters...whoever.
+        //  1 parameter for the file path of the job description
 
         #endregion
 
