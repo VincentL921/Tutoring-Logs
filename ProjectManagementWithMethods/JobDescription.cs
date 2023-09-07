@@ -50,23 +50,41 @@ namespace ProjectManagementWithMethods
 
 
         
-        public void Qualifications()
+        public void Qualifications(string education, int experience, string skillsets, string communication, string technicals)
         {
-            this.JobQualifications.Education = "Bachelor’s degree in a relevant field such as project management, business administration, engineering, and /or construction management.";
-            this.JobQualifications.YearsOfExperience = 5;
-            this.JobQualifications.Skillsets = "Experience in coordinating project activities, assisting the Director of Construction or Senior Project Manager, and collaborate cross- functionally with departments to execute the vision of the project. Ability to manage multiple projects and their tasks, milestones and deliverables.";
-            this.JobQualifications.Communication = "Strong communication skills, both written and verbal.";
-            this.JobQualifications.TechnicalExperience = "Proficiency in construction management software, such as Procore-familiarity & Plexxis are a plus.";
+            //this.JobQualifications.Education = "Bachelor’s degree in a relevant field such as project management, business administration, engineering, and /or construction management.";
+            //this.JobQualifications.YearsOfExperience = 5;
+            //this.JobQualifications.Skillsets = "Experience in coordinating project activities, assisting the Director of Construction or Senior Project Manager, and collaborate cross- functionally with departments to execute the vision of the project. Ability to manage multiple projects and their tasks, milestones and deliverables.";
+            //this.JobQualifications.Communication = "Strong communication skills, both written and verbal.";
+            //this.JobQualifications.TechnicalExperience = "Proficiency in construction management software, such as Procore-familiarity & Plexxis are a plus.";
+
+            this.JobQualifications.Education = education;
+            this.JobQualifications.YearsOfExperience = experience;
+            this.JobQualifications.Skillsets = skillsets;
+            this.JobQualifications.Communication = communication;
+            this.JobQualifications.TechnicalExperience = technicals;
         }
 
 
-        public void JobSalary()
+        public void JobSalary(int salary, string bonus, int vacation, int pto, string insurance)
         {
-            this.PaymentAndCompensation.Salary = 120000;
-            this.PaymentAndCompensation.Bonus = "You will recieve 5% of profits made on all completed projects";
-            this.PaymentAndCompensation.Vacation = 21;
-            this.PaymentAndCompensation.PTO = 6;
-            this.PaymentAndCompensation.InsuranceBenefits = "Includes company provided Medical, Vision & Dental insurances.";
+            //this.PaymentAndCompensation.Salary = 120000;
+            //this.PaymentAndCompensation.Bonus = "You will recieve 5% of profits made on all completed projects";
+            //this.PaymentAndCompensation.Vacation = 21;
+            //this.PaymentAndCompensation.PTO = 6;
+            //this.PaymentAndCompensation.InsuranceBenefits = "Includes company provided Medical, Vision & Dental insurances.";
+
+            this.PaymentAndCompensation.Salary = salary;
+            this.PaymentAndCompensation.Bonus = bonus;
+            this.PaymentAndCompensation.Vacation = vacation;
+            this.PaymentAndCompensation.PTO = pto;
+            this.PaymentAndCompensation.InsuranceBenefits = insurance;
+        }
+
+
+        public void Tasks(string name, string description)
+        {
+            this.JobTasks.
         }
 
 
