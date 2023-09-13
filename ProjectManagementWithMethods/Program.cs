@@ -7,11 +7,6 @@ List<JobDescription> jobPosting = new List<JobDescription>();
 var seniorProjectManager = new JobDescription();
 var softwareEngineer = new JobDescription();
 
-//seniorProjectManager.Company = new Company();
-//seniorProjectManager.JobLocation = new JobLocation();
-//seniorProjectManager.JobQualifications = new JobQualifications();
-//seniorProjectManager.PaymentAndCompensation = new PaymentAndCompensation();
-
 seniorProjectManager.JobTasks = new List<JobTasks>();
 var supportingTheProject = new JobTasks();
 var communicationAndCoordination = new JobTasks();
@@ -22,20 +17,20 @@ var costEstimation = new JobTasks();
 var preConstruction = new JobTasks();
 var designPhase = new JobTasks();
 
-//StringBuilder practice
-//StringBuilder builder = new StringBuilder();
-
 #region Class Properties
-//seniorProjectManager.PositionAndCompany();
-seniorProjectManager.PositionAndCompany("Senior Project Manager", "Gotham Drywall LLC");
-softwareEngineer.PositionAndCompany("Senior Software Engineer", "Code Blocks LLC");
+seniorProjectManager.SetPositionAndCompany("Senior Project Manager", "Gotham Drywall LLC");
+//softwareEngineer.PositionAndCompany("Senior Software Engineer", "Code Blocks LLC");
+//Just focusing on PM coding right now VL 9/10/2023
 
+seniorProjectManager.SetCompanyAddress("244-250 Greebn Street", "Brooklyn", "New York", 11222, true);
 
-//seniorProjectManager.CompanyAddress();
-seniorProjectManager.CompanyAddress("", "", "", "", true);
+seniorProjectManager.SetQualifications("Bachelor’s degree in a relevant field such as project management, business administration, engineering, and /or construction management.",
+    5,
+    "Experience in coordinating project activities, assisting the Director of Construction or Senior Project Manager, and collaborate cross- functionally with departments to execute the vision of the project. Ability to manage multiple projects and their tasks, milestones and deliverables.",
+    "Strong communication skills, both written and verbal.",
+    "Proficiency in construction management software, such as Procore-familiarity & Plexxis are a plus.");
 
-seniorProjectManager.Qualifications();
-seniorProjectManager.JobSalary();
+seniorProjectManager.SetJobSalary(120000, "You will recieve 5% of profits made on all completed projects", 21, 6, "Includes company provided Medical, Vision & Dental insurances.");
 
 supportingTheProject.Build("Supporting The Project",
     "You will assist the Director of Construction in various tasks, such as managing staff like inspectors, schedulers, estimators, and site safety personnel. Other tasks include coordinating and organizing project plans, scheduling meetings, allocating project resources, and monitoring construction schedule progress.");
@@ -85,7 +80,7 @@ jobPosting.Add(seniorProjectManager);
 
 foreach (var item in jobPosting)
 {
-    item.JobListing();
+    item.DisplayJobListing();
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);

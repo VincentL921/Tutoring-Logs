@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Text;
 
 namespace ProjectManagementWithMethods
@@ -20,27 +21,14 @@ namespace ProjectManagementWithMethods
 
         #region Class Properties & Job Listing Methods
 
-        //To make reusable, change hard coded string values like "Senior Project Manager" to use a variable passed in
-        //  through the method.
-        //public void PositionAndCompany()
-        public void PositionAndCompany(string jobTitle, string companyName)
+        public void SetPositionAndCompany(string jobTitle, string companyName)
         {
-            //this.Company.JobTitle = "Senior Project Manager";
             this.Company.JobTitle = jobTitle;
-            //this.Company.CompanyName = "Gotham Drywall Inc";
             this.Company.CompanyName = companyName;
         }
 
-
-        //public void CompanyAddress()
-        public void CompanyAddress(string address, string city, string state, string zip ,bool isOnSite)
-        {
-            //this.JobLocation.StreetAddress = "244-250 Green Street";
-            //this.JobLocation.City = "Brooklyn";
-            //this.JobLocation.State = "NY";
-            //this.JobLocation.Zip = 11222;
-            //this.JobLocation.PositionOnSite = true;
-            
+        public void SetCompanyAddress(string address, string city, string state, int zip ,bool isOnSite)
+        {   
             this.JobLocation.StreetAddress = address;
             this.JobLocation.City = city;
             this.JobLocation.State = state;
@@ -48,16 +36,8 @@ namespace ProjectManagementWithMethods
             this.JobLocation.PositionOnSite = isOnSite;
         }
 
-
-        
-        public void Qualifications(string education, int experience, string skillsets, string communication, string technicals)
+        public void SetQualifications(string education, int experience, string skillsets, string communication, string technicals)
         {
-            //this.JobQualifications.Education = "Bachelor’s degree in a relevant field such as project management, business administration, engineering, and /or construction management.";
-            //this.JobQualifications.YearsOfExperience = 5;
-            //this.JobQualifications.Skillsets = "Experience in coordinating project activities, assisting the Director of Construction or Senior Project Manager, and collaborate cross- functionally with departments to execute the vision of the project. Ability to manage multiple projects and their tasks, milestones and deliverables.";
-            //this.JobQualifications.Communication = "Strong communication skills, both written and verbal.";
-            //this.JobQualifications.TechnicalExperience = "Proficiency in construction management software, such as Procore-familiarity & Plexxis are a plus.";
-
             this.JobQualifications.Education = education;
             this.JobQualifications.YearsOfExperience = experience;
             this.JobQualifications.Skillsets = skillsets;
@@ -66,14 +46,8 @@ namespace ProjectManagementWithMethods
         }
 
 
-        public void JobSalary(int salary, string bonus, int vacation, int pto, string insurance)
+        public void SetJobSalary(int salary, string bonus, int vacation, int pto, string insurance)
         {
-            //this.PaymentAndCompensation.Salary = 120000;
-            //this.PaymentAndCompensation.Bonus = "You will recieve 5% of profits made on all completed projects";
-            //this.PaymentAndCompensation.Vacation = 21;
-            //this.PaymentAndCompensation.PTO = 6;
-            //this.PaymentAndCompensation.InsuranceBenefits = "Includes company provided Medical, Vision & Dental insurances.";
-
             this.PaymentAndCompensation.Salary = salary;
             this.PaymentAndCompensation.Bonus = bonus;
             this.PaymentAndCompensation.Vacation = vacation;
@@ -81,14 +55,6 @@ namespace ProjectManagementWithMethods
             this.PaymentAndCompensation.InsuranceBenefits = insurance;
         }
 
-
-        public void Tasks(string name, string description)
-        {
-            this.JobTasks.
-        }
-
-
-        //public void JobListing()
         public void BuildJobListing()
         {
             StringBuilder builder = new StringBuilder();
@@ -136,7 +102,6 @@ namespace ProjectManagementWithMethods
             //Removed string result = builder.ToString();
             //Removed Console.WriteLine(result);
             //Idea here is that before you display the listing and save to file, you call .BuildJobListing() first.
-            //
             _jobDescription = builder.ToString();
         }
 
@@ -150,8 +115,16 @@ namespace ProjectManagementWithMethods
         //             myjob.txt <- just the filename
         public void SaveJobListing()
         {
+            string filePath = @"/Users/vincentlentini/Projects/ProjectManagementClassesWork";
+            File.WriteAllText(filePath, _jobDescription);
+
             //TODO: Figure out how to write job description output to a file.
             //  Save it to a file called {job name}.txt
+        }
+
+        public void EmailJobListing()
+        {
+            //Need to complete and add the file path I created - VL 9/12/2023
         }
 
         //TODO: Add another method to email the job description, should have 2 arguments to the method
@@ -159,10 +132,6 @@ namespace ProjectManagementWithMethods
         //  1 parameter for the file path of the job description
 
         #endregion
-
-        //public JobDescription()
-        //{
-        //}
 
         // Move object creation/instantation for properties of this object into the constructor to make reusability easier going forward.
         // On call, softwareEngineer object errored out because these properties were null, so instead of duplicating effort/code by having
