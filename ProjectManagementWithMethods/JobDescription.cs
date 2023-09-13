@@ -115,7 +115,7 @@ namespace ProjectManagementWithMethods
         //             myjob.txt <- just the filename
         public void SaveJobListing()
         {
-            string filePath = @"/Users/vincentlentini/Projects/ProjectManagementClassesWork";
+            string filePath = @"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt";
             File.WriteAllText(filePath, _jobDescription);
 
             //TODO: Figure out how to write job description output to a file.
