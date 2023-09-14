@@ -6,6 +6,7 @@ using ProjectManagementWithMethods;
 List<JobDescription> jobPosting = new List<JobDescription>();
 var seniorProjectManager = new JobDescription();
 var softwareEngineer = new JobDescription();
+var pmFilePath = new JobDescription();
 
 seniorProjectManager.JobTasks = new List<JobTasks>();
 var supportingTheProject = new JobTasks();
@@ -16,6 +17,8 @@ var bidLeveling = new JobTasks();
 var costEstimation = new JobTasks();
 var preConstruction = new JobTasks();
 var designPhase = new JobTasks();
+
+pmFilePath.SaveJobListing(@"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt\");
 
 #region Class Properties
 seniorProjectManager.SetPositionAndCompany("Senior Project Manager", "Gotham Drywall LLC");

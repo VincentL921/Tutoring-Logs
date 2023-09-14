@@ -10,6 +10,8 @@ namespace ProjectManagementWithMethods
         //  you might also see it called a private member variable
         //
         private string _jobDescription = string.Empty;
+        public string FilePath { get; set; }
+        public string ReturnPathString { get; set; }
         public Company Company { get; set; }
         public JobLocation JobLocation { get; set; }
         public PaymentAndCompensation PaymentAndCompensation { get; set; }
@@ -113,10 +115,12 @@ namespace ProjectManagementWithMethods
         //Make SaveJobListing return a string value which is the file path of what you've created.
         // ex: c:\temp\myjob.txt <- full file path
         //             myjob.txt <- just the filename
-        public void SaveJobListing()
+        public void SaveJobListing(string pathName)
         {
-            string filePath = @"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt";
-            File.WriteAllText(filePath, _jobDescription);
+            this.FilePath = pathName;
+            File.WriteAllText(pathName, _jobDescription);
+
+            //return pathName;
 
             //TODO: Figure out how to write job description output to a file.
             //  Save it to a file called {job name}.txt
