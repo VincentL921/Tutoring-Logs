@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 
 namespace ProjectManagementWithMethods
@@ -101,9 +103,6 @@ namespace ProjectManagementWithMethods
             builder.AppendLine($"- PTO: {this.PaymentAndCompensation.PTO} paid for sick/leave days.");
             builder.AppendLine($"- Insurance: {this.PaymentAndCompensation.InsuranceBenefits}");
 
-            //Removed string result = builder.ToString();
-            //Removed Console.WriteLine(result);
-            //Idea here is that before you display the listing and save to file, you call .BuildJobListing() first.
             _jobDescription = builder.ToString();
         }
 
@@ -112,23 +111,45 @@ namespace ProjectManagementWithMethods
             Console.WriteLine(_jobDescription);
         }
 
-        //Make SaveJobListing return a string value which is the file path of what you've created.
-        // ex: c:\temp\myjob.txt <- full file path
-        //             myjob.txt <- just the filename
-        public void SaveJobListing(string pathName)
+        public string SaveJobListing(string pathName)
         {
             this.FilePath = pathName;
             File.WriteAllText(pathName, _jobDescription);
 
-            //return pathName;
-
-            //TODO: Figure out how to write job description output to a file.
-            //  Save it to a file called {job name}.txt
+            return pathName;
         }
 
         public void EmailJobListing()
         {
-            //Need to complete and add the file path I created - VL 9/12/2023
+
+            MailAddress to = new MailAddress("VincentL921@gmail.com");
+            MailAddress from = new MailAddress("VincentL921@gmail.com");
+
+            MailMessage email = new MailMessage(from, to);
+            email.Subject = "Testing Out Email Sending";
+            email.Body = "Attachment Testing";
+
+            System.Net.Mail.Attachment attachment;
+            attachment = new System.Net.Mail.Attachment("/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt");
+            email.Attachments.Add(attachment);
+
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.Credentials = new NetworkCredential("l34rn2c0d3g00d@gmail.com", "pablzyzvvhybodrd");
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.EnableSsl = true;
+
+            smtp.Send(email);
+
+            try
+            {
+                smtp.Send(email);
+            }
+            catch (SmtpException ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
 
         //TODO: Add another method to email the job description, should have 2 arguments to the method
@@ -137,10 +158,6 @@ namespace ProjectManagementWithMethods
 
         #endregion
 
-        // Move object creation/instantation for properties of this object into the constructor to make reusability easier going forward.
-        // On call, softwareEngineer object errored out because these properties were null, so instead of duplicating effort/code by having
-        //  to set the same values over again, moving it to the constructor allows it to be set once and then be good for
-        //  an infinite amount of job description
         public JobDescription()
         {
             this.Company = new Company();

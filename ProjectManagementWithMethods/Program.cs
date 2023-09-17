@@ -18,8 +18,6 @@ var costEstimation = new JobTasks();
 var preConstruction = new JobTasks();
 var designPhase = new JobTasks();
 
-pmFilePath.SaveJobListing(@"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt\");
-
 #region Class Properties
 seniorProjectManager.SetPositionAndCompany("Senior Project Manager", "Gotham Drywall LLC");
 //softwareEngineer.PositionAndCompany("Senior Software Engineer", "Code Blocks LLC");
@@ -60,12 +58,9 @@ designPhase.Build("Design Phase",
     "You will be working with architects and engineers to refine the conceptual design of the drawings. You will also help ensure effective communication among all design disciplines including architects, engineers, and consultants.");
 #endregion
 
-// Do all the "manipulations" to the object before adding to a main/primary collection like job posting.
-// meaning, set all the proeprties/values to the object, add all items to the collections that are properties
-//      within the object before adding it to the main collection.
-//      In this case that main collection is jobPosting.
-//
-//jobPosting.Add(seniorProjectManager);
+seniorProjectManager.SaveJobListing(@"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt");
+seniorProjectManager.EmailJobListing();
+
 seniorProjectManager.JobTasks.Add(supportingTheProject);
 seniorProjectManager.JobTasks.Add(communicationAndCoordination);
 seniorProjectManager.JobTasks.Add(documentationAndReporting);
@@ -75,15 +70,16 @@ seniorProjectManager.JobTasks.Add(costEstimation);
 seniorProjectManager.JobTasks.Add(preConstruction);
 seniorProjectManager.JobTasks.Add(designPhase);
 
-
-
-//Added software engineer object to collection to demonstrate reusability.
-jobPosting.Add(softwareEngineer);
+//jobPosting.Add(softwareEngineer);
 jobPosting.Add(seniorProjectManager);
+jobPosting.Add(pmFilePath);
 
 foreach (var item in jobPosting)
 {
+    item.BuildJobListing();
     item.DisplayJobListing();
+    item.SaveJobListing();
+    item.EmailJobListing();
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);
