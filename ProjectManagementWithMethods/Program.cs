@@ -60,6 +60,7 @@ designPhase.Build("Design Phase",
 
 seniorProjectManager.SaveJobListing(@"/Users/vincentlentini/Projects/ProjectManagementClassesWork/pmjoblisting.txt");
 seniorProjectManager.EmailJobListing();
+seniorProjectManager.PrintSaveJobListing();
 
 seniorProjectManager.JobTasks.Add(supportingTheProject);
 seniorProjectManager.JobTasks.Add(communicationAndCoordination);
@@ -78,10 +79,12 @@ foreach (var item in jobPosting)
 {
     item.BuildJobListing();
     item.DisplayJobListing();
-    item.SaveJobListing();
+    item.PrintSaveJobListing();
     item.EmailJobListing();
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);
     Console.WriteLine(Environment.NewLine);
+    Console.WriteLine(Environment.NewLine);
+
 }
 

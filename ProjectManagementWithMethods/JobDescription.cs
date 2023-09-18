@@ -119,7 +119,12 @@ namespace ProjectManagementWithMethods
             return pathName;
         }
 
-        public void EmailJobListing()
+        public void PrintSaveJobListing()
+        {
+            Console.WriteLine(this.SaveJobListing);
+        }
+
+            public void EmailJobListing()
         {
 
             MailAddress to = new MailAddress("VincentL921@gmail.com");
